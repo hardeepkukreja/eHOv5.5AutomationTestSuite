@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+
+<suite name="eHo Version 5.5">
+  
+   <test name=" Test case TC 002">
+      <classes>
+         <class name="com.eHo.testcases.eHO_TC_002"/>
+      </classes>
+    </test> 
+
+
+ <test name=" Test case TC 005">
+      <classes>
+         <class name="com.eHo.testcases.eHO_TC_005"/>
+      </classes>
+    </test> 
+
+<test name=" Test case TC 013">
+      <classes>
+         <class name="com.eHo.testcases.eHO_TC_013"/>
+      </classes>
+    </test> 
+
+<test name=" Test case TC 015">
+      <classes>
+         <class name="com.eHo.testcases.eHO_TC_015"/>
+      </classes>
+    </test> 
+
+<test name=" Test case TC 016">
+      <classes>
+         <class name="com.eHo.testcases.eHO_TC_016"/>
+      </classes>
+    </test> 
+
+
+   
+   
+   <test name=" Test case TC 018">
+      <classes>
+         <class name="com.eHo.testcases.eHO_TC_018"/>
+      </classes>
+    </test> 
+   
+   <test name=" Test case TC 019">
+      <classes>
+         <class name="com.eHo.testcases.eHO_TC_019"/>
+      </classes>
+    </test> 
+   <test name=" Test case TC 020">
+      <classes>
+         <class name="com.eHo.testcases.eHO_TC_020"/>
+      </classes>
+    </test> 
+    
+    
+    
+     <test name=" Test case TC 021">
+      <classes>
+         <class name="com.eHo.testcases.eHO_TC_021"/>
+      </classes>
+    </test> 
+     <test name=" Test case TC 022">
+      <classes>
+         <class name="com.eHo.testcases.eHO_TC_022"/>
+      </classes>
+    </test> 
+     <test name=" Test case TC 023">
+      <classes>
+         <class name="com.eHo.testcases.eHO_TC_023"/>
+      </classes>
+    </test> 
+     <test name=" Test case TC 024">
+      <classes>
+         <class name="com.eHo.testcases.eHO_TC_024"/>
+      </classes>
+    </test> 
+     <test name=" Test case TC 025">
+      <classes>
+         <class name="com.eHo.testcases.eHO_TC_025"/>
+      </classes>
+    </test> 
+    
+     <test name=" Test case TC 026">
+      <classes>
+         <class name="com.eHo.testcases.eHO_TC_026"/>
+      </classes>
+    </test>
+     <test name=" Test case TC 027">
+      <classes>
+         <class name="com.eHo.testcases.eHO_TC_027"/>
+      </classes>
+    </test>
+     <test name=" Test case TC 028">
+      <classes>
+         <class name="com.eHo.testcases.eHO_TC_028"/>
+      </classes>
+    </test>
+    
+    <test name=" Test case TC 29">
+      <classes>
+         <class name="com.eHo.testcases.eHO_TC_029"/>
+      </classes>
+    </test>
+    
+    
+   
+</suite>

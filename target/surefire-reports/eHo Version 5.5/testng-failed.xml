@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [eHo Version 5.5]">
+  <test name=" Test case TC 026(failed)">
+    <classes>
+      <class name="com.eHo.testcases.eHO_TC_028">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.eHo.testcases.eHO_TC_028 -->
+      <class name="com.eHo.testcases.eHO_TC_025">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.eHo.testcases.eHO_TC_025 -->
+      <class name="com.eHo.testcases.eHO_TC_021">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.eHo.testcases.eHO_TC_021 -->
+      <class name="com.eHo.testcases.eHO_TC_020">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.eHo.testcases.eHO_TC_020 -->
+      <class name="com.eHo.testcases.eHO_TC_027">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.eHo.testcases.eHO_TC_027 -->
+      <class name="com.eHo.testcases.eHO_TC_026">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="TC_026Test"/>
+        </methods>
+      </class> <!-- com.eHo.testcases.eHO_TC_026 -->
+      <class name="com.eHo.testcases.eHO_TC_016">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.eHo.testcases.eHO_TC_016 -->
+      <class name="com.eHo.testcases.eHO_TC_023">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.eHo.testcases.eHO_TC_023 -->
+      <class name="com.eHo.testcases.eHO_TC_002">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.eHo.testcases.eHO_TC_002 -->
+      <class name="com.eHo.testcases.eHO_TC_029">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.eHo.testcases.eHO_TC_029 -->
+      <class name="com.eHo.testcases.eHO_TC_013">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.eHo.testcases.eHO_TC_013 -->
+      <class name="com.eHo.testcases.eHO_TC_022">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.eHo.testcases.eHO_TC_022 -->
+      <class name="com.eHo.testcases.eHO_TC_015">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.eHo.testcases.eHO_TC_015 -->
+      <class name="com.eHo.testcases.eHO_TC_005">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.eHo.testcases.eHO_TC_005 -->
+      <class name="com.eHo.testcases.eHO_TC_018">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.eHo.testcases.eHO_TC_018 -->
+      <class name="com.eHo.testcases.eHO_TC_019">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.eHo.testcases.eHO_TC_019 -->
+      <class name="com.eHo.testcases.eHO_TC_024">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.eHo.testcases.eHO_TC_024 -->
+    </classes>
+  </test> <!--  Test case TC 026(failed) -->
+</suite> <!-- Failed suite [eHo Version 5.5] -->
