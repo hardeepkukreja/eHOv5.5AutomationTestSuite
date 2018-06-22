@@ -46,6 +46,11 @@ public class SystemDirectivePage {
 	@FindBy(xpath=".//*[@id='activeResult:j_id_6r:0:j_id_6t']")
 	WebElement ActiveDirective; // active directive 
 	
+	
+	@FindBy(id="activeResult:j_id_5z:0:j_id_61")
+	WebElement clickActiveSD;
+//	.//*[@id='activeResult:j_id_5z:0:j_id_61']
+	
 	@FindBy(id="revoke-comment-btn-continue")
 	WebElement btnRevokeContinue;
 	
@@ -107,7 +112,10 @@ public class SystemDirectivePage {
 	{
 		ActiveDirective.click();
 	}
-	
+	public void clickActiveSD()
+	{
+		clickActiveSD.click();
+	}
 	
 	public void clickBtnRevokeContinue()
 	{

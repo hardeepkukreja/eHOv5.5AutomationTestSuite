@@ -196,16 +196,16 @@ public WebDriver driver;
 		btnCloseMessage.click();
 	}
 	
-	public void selectCustodiansNotInclude()
-	{
-		Select drop=new Select(dropCustodiansValue); // 
-		drop.selectByIndex(2);	
-	}
-	
-	public void selectCustodiansExclude()
+	public void selectCustodiansNotEqual()
 	{
 		Select drop=new Select(dropCustodiansValue); // 
 		drop.selectByIndex(1);	
+	}
+	
+	public void selectCustodiansEqual()
+	{
+		Select drop=new Select(dropCustodiansValue); // 
+		drop.selectByIndex(0);	
 	}
 	public void selectCustodians(String value)
 	{

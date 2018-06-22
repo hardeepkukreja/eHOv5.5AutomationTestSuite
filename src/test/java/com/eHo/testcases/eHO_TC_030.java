@@ -10,8 +10,6 @@
 
 package com.eHo.testcases;
 
-import java.text.SimpleDateFormat;
-import java.util.Date;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
@@ -46,7 +44,7 @@ public class eHO_TC_030 extends BaseTest
 	try
 	{
 	test=rep.startTest("TC_030 Test");
-	test.log(LogStatus.INFO, "Starting the test case to check the basic flow of record level policy creation ");
+	test.log(LogStatus.INFO, "Starting the test case to check the basic flow of System CD creation ");
 	openBrowser(prop.getProperty("browser"));//this is the method from BaseTest class that opens up the browser based upon the parameter
 	navigate("appURL");//to navigate to the application
 	driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
@@ -55,6 +53,7 @@ public class eHO_TC_030 extends BaseTest
 	NavigationPage navigationPage=new NavigationPage(driver);
 	ClientSearchPage clientSearch=new ClientSearchPage(driver);
 	SystemDirectivePage systemdirectivepage= new SystemDirectivePage(driver);
+	logger.info("TC_030 System CD creation and testing in test tab  ");
 	
 	navigationPage.clickConsent();
 	navigationPage.clickSystemDirectives();
@@ -74,15 +73,16 @@ public class eHO_TC_030 extends BaseTest
 	String actualMessage=driver.findElement(By.xpath("//*[@id='infoMessagesDialog']/table/tbody/tr/td")).getText();
 	softAssert.assertEquals(expectedMessage, actualMessage);
 	systemdirectivepage.clickBtnBack();
-	SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd");   
+/* 	SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd");   
 	Date date = new Date();   
 	String currentDate= formatter.format(date);
 	System.out.println(currentDate);
 	String actualDate=driver.findElement(By.xpath(".//*[@id='0']/td[3]")).getText();	
 	System.out.println(actualDate); 
 	softAssert.assertEquals(currentDate, actualDate);	
+	logger.info(" TC _30 current date is present in the column  ");
 		
-
+*/
 	String actualSource=driver.getPageSource();
 	boolean a= actualSource.contains("Default1");
 	
@@ -105,12 +105,12 @@ public class eHO_TC_030 extends BaseTest
 	navigationPage.clickManagement();
 	
 	clientSearch.setID(prop.getProperty("id"));
-
 	clientSearch.clickSearch();
 	clientSearch.clickClientName();
 	ClientPolicies clientPolicies=new ClientPolicies(driver);
 	AgentPolicyDetailPage agentPolicyDetailPage=new AgentPolicyDetailPage(driver);
 	AgentSelectPage agentSelectPage=new AgentSelectPage(driver);
+	logger.info(" TC _30 deny all policy is created   ");
 	
 	// policy 
 	clientPolicies.clickNewDirective();
@@ -138,9 +138,9 @@ public class eHO_TC_030 extends BaseTest
 	
 	
 TestPage testpage= new TestPage(driver);
+logger.info(" TC _30 test page logic began    ");
 	
  testpage.clickTestTab();
- //testpage.clickpurposeOfUse("Emergency Care");
  testpage.clickBtnAdd();
  testpage.clickBtnAgent();
  testpage.setLastNameAgent("Smith");
@@ -150,43 +150,36 @@ TestPage testpage= new TestPage(driver);
  
  testpage.clickBtnAdd();
  testpage.clickbtnOrganisation();
- testpage.setTxtOrgName("SomeValue");
+ testpage.setTxtOrgName("Toronto");
  testpage.setTxtOrgMuncipality("Toronto"); 
  testpage.clickbtnSearch();
  testpage.clickIdOrgSelect();
  testpage.clickBtnReturn();
  testpage.clickBtnPerformCheck();
- // assertions
  
+ logger.info(" TC _30 test page System Directive is returned    ");
+
   actualMessage= driver.findElement(By.xpath(".//*[@id='test:j_id_cd:tbody_element']/tr/td[4]/span")).getText();
 System.out.println(" title of consent found" +actualMessage);
   expectedMessage ="Default1";
 softAssert.assertEquals(expectedMessage, actualMessage);
-
- 
  testpage.clickCloseResponse();
- 
-
- 
-
  navigationPage.clickConsent();
  navigationPage.clickSystemDirectives();
- 
 	// revoke SD 
-	systemdirectivepage.clickActiveDirective();
+ logger.info(" TC _30 revoke SD began   ");
+ systemdirectivepage.clickActiveSD();
+
+ //systemdirectivepage.clickActiveDirective();
 	systemdirectivepage.clickBtnRevoke();
-	
 	systemdirectivepage.clickBtnRevokeContinue();
-	
-	
 	  expectedMessage="Message has been sent successfully to Consent Validation to reload the system directive cache.";
 	  actualMessage=driver.findElement(By.xpath("//*[@id='infoMessagesDialog']/table/tbody/tr/td")).getText();
 	softAssert.assertEquals(expectedMessage, actualMessage);	
 	systemdirectivepage.clickBtnBack();
+	
+	 logger.info(" TC _30 passed ");
 
-	
-	
-	
 	}
 	catch(Exception ex)
 	{

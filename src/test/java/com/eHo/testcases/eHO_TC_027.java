@@ -27,7 +27,7 @@ public class eHO_TC_027 extends BaseTest {
 		try
 		{
 		test=rep.startTest("TC_027 Test");
-		test.log(LogStatus.INFO, "Starting the test case to check the basic flow of record level policy creation ");
+		test.log(LogStatus.INFO, "Starting the test case ");
 		openBrowser(prop.getProperty("browser"));//this is the method from BaseTest class that opens up the browser based upon the parameter
 		navigate("appURL");//to navigate to the application
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
@@ -40,12 +40,17 @@ public class eHO_TC_027 extends BaseTest {
 		InternalClientSearch internalclientsearch= new InternalClientSearch(driver);
 		internalclientsearch.clickinternalID();
 		internalclientsearch.setTxtEcid("AUTO981");
+		logger.info("TC_027 code is s testcase began  ");
+		
 		internalclientsearch.clickbtnSearch();
 		// no policy for patient 
 		String expectedMessage="This criteria results in 0 records found!";
 		 String actualMessage=driver.findElement(By.xpath("//*[@id='infoMessagesDialog']/table/tbody/tr/td")).getText();
 		softAssert.assertEquals(expectedMessage, actualMessage);	
 	
+		logger.info("TC_027 testcase is successfull  ");
+		
+		
 		System.out.println("EOT");
 		
 		}

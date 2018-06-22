@@ -13,7 +13,6 @@ import com.eHo.pageobjects.ClientPolicies;
 import com.eHo.pageobjects.ClientSearchPage;
 import com.eHo.pageobjects.NavigationPage;
 import com.eHo.pageobjects.RecordLevelPolicyDetailPage;
-import com.eHo.pageobjects.SecurityAlertSearchPage;
 import com.eHo.pageobjects.TestPage;
 import com.relevantcodes.extentreports.LogStatus;
 
@@ -34,7 +33,7 @@ public class eHO_TC_035 extends BaseTest
 	try
 	{
 	test=rep.startTest("TC_035 Test");
-	test.log(LogStatus.INFO, "Starting the test case to check the basic flow of record level policy creation ");
+	test.log(LogStatus.INFO, "Starting the test case to check the basic flow of over request in UI ");
 	openBrowser(prop.getProperty("browser"));//this is the method from BaseTest class that opens up the browser based upon the parameter
 	navigate("appURL");//to navigate to the application
 	driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
@@ -42,20 +41,19 @@ public class eHO_TC_035 extends BaseTest
 	test.log(LogStatus.INFO, "Clicked submit button");
 	NavigationPage navigationPage=new NavigationPage(driver);
 	ClientSearchPage clientSearch=new ClientSearchPage(driver);
-	// SystemDirectivePage systemdirectivepage= new SystemDirectivePage(driver);
 	ClientPolicies clientPolicies=new ClientPolicies(driver);
-		RecordLevelPolicyDetailPage recordLevelPolicyDetailPage=new RecordLevelPolicyDetailPage(driver);
-		SecurityAlertSearchPage securityalertsearchpage = new SecurityAlertSearchPage(driver);
+	RecordLevelPolicyDetailPage recordLevelPolicyDetailPage=new RecordLevelPolicyDetailPage(driver);		
 	navigationPage.clickConsent();
 	navigationPage.clickManagement();
-	clientSearch.setID(prop.getProperty("id"));
+	clientSearch.setID(prop.getProperty("id")); // need to change to a new id 
 	test.log(LogStatus.INFO, "Searching Id");
+
+	logger.info("TC_035  Searching id");	
+	
 	clientSearch.clickSearch();
 	clientSearch.clickClientName();
-
- clientPolicies.clickNewDirective();
+    clientPolicies.clickNewDirective();
 	clientPolicies.clickRecordLevel();
-	
 	// put policy Deny 
 	recordLevelPolicyDetailPage.selectDirectiveOutcome("Deny");  
 	recordLevelPolicyDetailPage.setPolicyDescription("Record Level Policy-Automation");
@@ -65,18 +63,19 @@ public class eHO_TC_035 extends BaseTest
 	recordLevelPolicyDetailPage.selectRecordType();
 	recordLevelPolicyDetailPage.setRecordText("123");
 	recordLevelPolicyDetailPage.clickSave();
+	logger.info("TC_035  Policy was saved successfully.");	
+	
 	String expectedMessage="Policy was saved successfully.";
 	String actualMessage=driver.findElement(By.xpath("//*[@id='infoMessagesDialog']/table/tbody/tr/td")).getText();
 	softAssert.assertEquals(expectedMessage, actualMessage);
 	recordLevelPolicyDetailPage.clickBack();
+	logger.info("TC_035  checking if the policy is created ");	
+	
 	//checking if the policy is created 
 	actualMessage= driver.findElement(By.xpath(".//*[@id='policiesResult:j_id_6j:0:j_id_6l']")).getText();
 	expectedMessage="Record Level Policy-Automation";
 	softAssert.assertEquals(expectedMessage, actualMessage);
-	
-
 	// test tab  
-	
 	TestPage testpage= new TestPage(driver);	
 	testpage.clickTestTab();
 	 testpage.clickBtnAdd();
@@ -92,49 +91,39 @@ public class eHO_TC_035 extends BaseTest
 	 testpage.clickbtnSearch();
 	 testpage.clickIdOrgSelect();
 	 testpage.clickBtnReturn();		 
-	 //specify PHI 
+//specify PHI 
 	testpage.clickSpecifyPHI();
 	testpage.clickBtnAddPHI();
 	testpage.setdocumentID("DI");
 	testpage.setdocumIDValue("123");
 	testpage.setdomainID("CDR");
 	testpage.clickDonePHI();
-	// override test 
+// override test 
+	logger.info("TC_035  checking override test began ");	
+	
 	testpage.clickSpecifyOverride();
 	testpage.setOverride_code(); // select index 2 
-	
-	testpage.setOverrideReason("Automation testing override");
-	
-	
+	testpage.setOverrideReason("Automation testing override");	
 	testpage.clickBtnPerformCheck();
+//assertions Temporary Override Requested";
+	logger.info("TC_035  Temporary Override Requested ");	
 	
-//assertions 
 	actualMessage= driver.findElement(By.xpath(".//*[@id='responseDialog']/div/span[1]")).getText();
-	
 	System.out.println( actualMessage);
-	/* expectedMessage ="Disclosure of PHI is allowed.";
+	expectedMessage ="Disclosure of PHI is allowed.";
 	softAssert.assertEquals(expectedMessage, actualMessage);
 	actualMessage= driver.findElement(By.xpath(".//*[@id='test:j_id_cd:tbody_element']/tr/td[2]/span")).getText();
 	expectedMessage= "Temporary Override Requested";
 	softAssert.assertEquals(expectedMessage, actualMessage);
 	testpage.clickBtnPerformCheck();
-	*/
-	
 	testpage.clickBtnPerformCheck();
-	// over ride found 
-	
+// over ride found 	
 	actualMessage= driver.findElement(By.xpath(".//*[@id='test:j_id_cd:tbody_element']/tr/td[2]/span")).getText();
 	expectedMessage="Temporary Override Found";
+	logger.info("TC_035  Temporary Override Found ");	
+	
 	softAssert.assertEquals(expectedMessage, actualMessage);
-	
 	testpage.clickCloseResponse();
-	
-/*   audit repository 
-	navigationPage.clickAuditRepository();
-	navigationPage.clickSecurityAlert();
-	securityalertsearchpage.clickBtnSearch(); 
-*/
-	
 //revoke 
 	clientPolicies.clickPolicyListTab();
 	recordLevelPolicyDetailPage.clickPolicy();
@@ -143,9 +132,12 @@ public class eHO_TC_035 extends BaseTest
 	expectedMessage="Policy was revoked successfully.";
 	actualMessage=driver.findElement(By.xpath(".//*[@id='infoMessagesDialog']/table/tbody/tr/td")).getText();		
 	softAssert.assertEquals(expectedMessage, actualMessage);
+	logger.info("TC_035  Policy was revoked successfully");	
+	
 	recordLevelPolicyDetailPage.clickCloseMessageBox();
 	recordLevelPolicyDetailPage.clickBack();		
-	System.out.println("Passed TC _033");
+	System.out.println("Passed TC _035");
+	logger.info("TC_035  Passed TC _035");	
 	
 	}
 catch(Exception ex)

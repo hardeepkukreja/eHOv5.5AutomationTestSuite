@@ -1,4 +1,4 @@
-// Conflicting policies :  allow all and deny all 
+// Conflicting policies :  allow all and deny all policy creation and revoking them
 package com.eHo.testcases;
 
 import java.util.concurrent.TimeUnit;
@@ -65,7 +65,8 @@ public class eHO_TC_023  extends BaseTest {
 		System.out.println(actualMessage);
 		recordLevelPolicyDetailPage.clickBack();
 		//checking if the policy is created 
-
+		logger.info("TC_023 record leveln deny all policy is created  ");	
+		
 		 actualMessage= driver.findElement(By.xpath(".//*[@id='policiesResult:j_id_6j:0:j_id_6l']")).getText();
 		 expectedMessage="Record Level Deny Policy";
 		
@@ -81,6 +82,7 @@ public class eHO_TC_023  extends BaseTest {
 		recordLevelPolicyDetailPage.selectRecordType();
 		recordLevelPolicyDetailPage.setRecordText("Test1");
 		recordLevelPolicyDetailPage.clickSave();
+		logger.info("TC_023 record level allow all policy is created  ");	
 		
 		String expectedMessage1="This Policy 'Record Level Allow Policy' conflicts with the existing Policy 'Record Level Deny Policy'";
 		
@@ -88,12 +90,14 @@ public class eHO_TC_023  extends BaseTest {
 	
 		
 		softAssert.assertEquals(expectedMessage1, actualMessage1);
-	driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		
 		// force save 
 		recordLevelPolicyDetailPage.clickbtnForceSave();
 		// checking the policy is saved 
 		expectedMessage="Policy was saved successfully.";
+		logger.info("TC_023 record level allow all policy is created  ");	
+		
 		actualMessage=driver.findElement(By.xpath(".//*[@id='infoMessagesDialog']/table/tbody/tr/td")).getText();
 		softAssert.assertEquals(expectedMessage, actualMessage);
 		recordLevelPolicyDetailPage.clickBack();
@@ -103,12 +107,12 @@ public class eHO_TC_023  extends BaseTest {
 		recordLevelPolicyDetailPage.clickPolicy();
 		recordLevelPolicyDetailPage.clickRevoke();
 		recordLevelPolicyDetailPage.clickYesConfirmation();
-		
-
 		expectedMessage="Policy was revoked successfully.";
 		actualMessage=driver.findElement(By.xpath(".//*[@id='infoMessagesDialog']/table/tbody/tr/td")).getText();		
 		softAssert.assertEquals(expectedMessage, actualMessage);
 		recordLevelPolicyDetailPage.clickbtnBackRevoke();
+		logger.info("TC_023 record level allow all policy is revoked   ");	
+		
 		// second policy
 		recordLevelPolicyDetailPage.clickPolicy();
 		recordLevelPolicyDetailPage.clickRevoke();
@@ -118,6 +122,9 @@ public class eHO_TC_023  extends BaseTest {
 		expectedMessage="Policy was revoked successfully.";
 		actualMessage=driver.findElement(By.xpath(".//*[@id='infoMessagesDialog']/table/tbody/tr/td")).getText();		
 		softAssert.assertEquals(expectedMessage, actualMessage);
+		logger.info("TC_023 record level allow all policy is revoked   ");	
+		logger.info("TC_023TestCase reached end of execution ");	
+		
 		System.out.println("TestCase reached end of execution");
 		
 		

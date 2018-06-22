@@ -2009,54 +2009,849 @@
 2018-05-03 10:20:09,936 - BaseTest -INFO - Initializing Mozilla browser
 2018-05-03 10:20:10,087 - BaseTest -INFO - Browser launched
 2018-05-03 10:20:10,911 - BaseTest -INFO - Navigating to URL ....appURL
-2018-05-03 10:42:15,636 - BaseTest -INFO - Initializing Mozilla browser
-2018-05-03 10:42:15,681 - BaseTest -INFO - Browser launched
-2018-05-03 10:42:17,038 - BaseTest -INFO - Navigating to URL ....appURL
-2018-05-03 10:42:41,207 - BaseTest -INFO - Initializing Mozilla browser
-2018-05-03 10:42:41,283 - BaseTest -INFO - Browser launched
-2018-05-03 10:42:42,042 - BaseTest -INFO - Navigating to URL ....appURL
-2018-05-03 10:43:05,876 - BaseTest -INFO - Initializing Mozilla browser
-2018-05-03 10:43:05,919 - BaseTest -INFO - Browser launched
-2018-05-03 10:43:06,493 - BaseTest -INFO - Navigating to URL ....appURL
-2018-05-03 10:43:27,746 - BaseTest -INFO - Initializing Mozilla browser
-2018-05-03 10:43:27,786 - BaseTest -INFO - Browser launched
-2018-05-03 10:43:28,430 - BaseTest -INFO - Navigating to URL ....appURL
-2018-05-03 10:43:55,866 - BaseTest -INFO - Initializing Mozilla browser
-2018-05-03 10:43:55,905 - BaseTest -INFO - Browser launched
-2018-05-03 10:43:56,608 - BaseTest -INFO - Navigating to URL ....appURL
-2018-05-03 10:44:12,758 - BaseTest -INFO - Initializing Mozilla browser
-2018-05-03 10:44:12,833 - BaseTest -INFO - Browser launched
-2018-05-03 10:44:13,658 - BaseTest -INFO - Navigating to URL ....appURL
-2018-05-03 10:44:31,229 - BaseTest -INFO - Initializing Mozilla browser
-2018-05-03 10:44:31,311 - BaseTest -INFO - Browser launched
-2018-05-03 10:44:31,893 - BaseTest -INFO - Navigating to URL ....appURL
-2018-05-03 10:44:50,317 - BaseTest -INFO - Initializing Mozilla browser
-2018-05-03 10:44:50,361 - BaseTest -INFO - Browser launched
-2018-05-03 10:44:50,869 - BaseTest -INFO - Navigating to URL ....appURL
-2018-05-03 10:45:10,579 - BaseTest -INFO - Initializing Mozilla browser
-2018-05-03 10:45:10,632 - BaseTest -INFO - Browser launched
-2018-05-03 10:45:11,510 - BaseTest -INFO - Navigating to URL ....appURL
-2018-05-03 10:45:32,770 - BaseTest -INFO - Initializing Mozilla browser
-2018-05-03 10:45:32,804 - BaseTest -INFO - Browser launched
-2018-05-03 10:45:33,553 - BaseTest -INFO - Navigating to URL ....appURL
-2018-05-03 10:45:53,128 - BaseTest -INFO - Initializing Mozilla browser
-2018-05-03 10:45:53,166 - BaseTest -INFO - Browser launched
-2018-05-03 10:45:53,804 - BaseTest -INFO - Navigating to URL ....appURL
-2018-05-03 10:46:21,344 - BaseTest -INFO - Initializing Mozilla browser
-2018-05-03 10:46:21,413 - BaseTest -INFO - Browser launched
-2018-05-03 10:46:22,075 - BaseTest -INFO - Navigating to URL ....appURL
-2018-05-03 10:46:42,106 - BaseTest -INFO - Initializing Mozilla browser
-2018-05-03 10:46:42,159 - BaseTest -INFO - Browser launched
-2018-05-03 10:46:42,640 - BaseTest -INFO - Navigating to URL ....appURL
-2018-05-03 10:46:52,957 - BaseTest -INFO - Initializing Mozilla browser
-2018-05-03 10:46:52,993 - BaseTest -INFO - Browser launched
-2018-05-03 10:46:53,632 - BaseTest -INFO - Navigating to URL ....appURL
-2018-05-03 10:47:16,249 - BaseTest -INFO - Initializing Mozilla browser
-2018-05-03 10:47:16,281 - BaseTest -INFO - Browser launched
-2018-05-03 10:47:18,473 - BaseTest -INFO - Navigating to URL ....appURL
-2018-05-03 10:47:30,031 - BaseTest -INFO - Initializing Mozilla browser
-2018-05-03 10:47:30,069 - BaseTest -INFO - Browser launched
-2018-05-03 10:47:30,777 - BaseTest -INFO - Navigating to URL ....appURL
-2018-05-03 10:47:54,651 - BaseTest -INFO - Initializing Mozilla browser
-2018-05-03 10:47:54,686 - BaseTest -INFO - Browser launched
-2018-05-03 10:47:55,731 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-03 10:33:02,891 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-03 10:33:03,003 - BaseTest -INFO - Browser launched
+2018-05-03 10:33:03,914 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-03 10:50:16,456 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-03 10:50:16,569 - BaseTest -INFO - Browser launched
+2018-05-03 10:50:17,458 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-03 10:50:53,099 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-03 10:50:53,205 - BaseTest -INFO - Browser launched
+2018-05-03 10:50:54,161 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-03 10:56:37,280 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-03 10:56:37,364 - BaseTest -INFO - Browser launched
+2018-05-03 10:56:38,390 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-03 10:57:11,961 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-03 10:57:12,061 - BaseTest -INFO - Browser launched
+2018-05-03 10:57:13,019 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-03 10:57:27,062 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-03 10:57:27,146 - BaseTest -INFO - Browser launched
+2018-05-03 10:57:28,062 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-03 10:58:04,071 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-03 10:58:04,203 - BaseTest -INFO - Browser launched
+2018-05-03 10:58:05,320 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-03 10:58:46,984 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-03 10:58:47,100 - BaseTest -INFO - Browser launched
+2018-05-03 10:58:48,002 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-03 10:59:18,068 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-03 10:59:18,168 - BaseTest -INFO - Browser launched
+2018-05-03 10:59:19,717 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-03 10:59:34,884 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-03 10:59:34,960 - BaseTest -INFO - Browser launched
+2018-05-03 10:59:35,867 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-03 11:00:06,429 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-03 11:00:06,545 - BaseTest -INFO - Browser launched
+2018-05-03 11:00:07,378 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-03 11:00:34,879 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-03 11:00:34,955 - BaseTest -INFO - Browser launched
+2018-05-03 11:00:35,896 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-03 11:01:04,493 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-03 11:01:04,572 - BaseTest -INFO - Browser launched
+2018-05-03 11:01:05,394 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-03 11:01:33,671 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-03 11:01:33,740 - BaseTest -INFO - Browser launched
+2018-05-03 11:01:34,607 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-03 11:02:22,606 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-03 11:02:22,690 - BaseTest -INFO - Browser launched
+2018-05-03 11:02:23,455 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-03 11:02:50,176 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-03 11:02:50,274 - BaseTest -INFO - Browser launched
+2018-05-03 11:02:51,124 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-03 11:03:08,302 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-03 11:03:08,386 - BaseTest -INFO - Browser launched
+2018-05-03 11:03:09,373 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-03 11:03:36,926 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-03 11:03:37,009 - BaseTest -INFO - Browser launched
+2018-05-03 11:03:37,980 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-03 11:03:56,199 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-03 11:03:56,272 - BaseTest -INFO - Browser launched
+2018-05-03 11:03:57,264 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-03 11:04:41,550 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-03 11:04:41,650 - BaseTest -INFO - Browser launched
+2018-05-03 11:04:42,505 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-03 11:15:00,727 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-03 11:15:00,905 - BaseTest -INFO - Browser launched
+2018-05-03 11:15:01,575 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-03 11:15:34,646 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-03 11:15:34,843 - BaseTest -INFO - Browser launched
+2018-05-03 11:15:36,142 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-03 11:16:12,269 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-03 11:16:12,369 - BaseTest -INFO - Browser launched
+2018-05-03 11:16:13,304 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-03 11:16:49,023 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-03 11:16:49,107 - BaseTest -INFO - Browser launched
+2018-05-03 11:16:50,033 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-03 11:17:30,999 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-03 11:17:31,099 - BaseTest -INFO - Browser launched
+2018-05-03 11:17:32,041 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-03 11:18:01,912 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-03 11:18:02,042 - BaseTest -INFO - Browser launched
+2018-05-03 11:18:02,861 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-03 11:18:32,978 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-03 11:18:33,067 - BaseTest -INFO - Browser launched
+2018-05-03 11:18:34,000 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-03 11:19:06,715 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-03 11:19:06,855 - BaseTest -INFO - Browser launched
+2018-05-03 11:19:07,886 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-03 11:19:35,717 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-03 11:19:35,783 - BaseTest -INFO - Browser launched
+2018-05-03 11:19:36,700 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-03 11:20:04,909 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-03 11:20:05,001 - BaseTest -INFO - Browser launched
+2018-05-03 11:20:05,856 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-03 11:20:31,931 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-03 11:20:32,005 - BaseTest -INFO - Browser launched
+2018-05-03 11:20:32,926 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-03 11:21:20,445 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-03 11:21:20,545 - BaseTest -INFO - Browser launched
+2018-05-03 11:21:21,484 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-03 11:21:47,521 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-03 11:21:47,628 - BaseTest -INFO - Browser launched
+2018-05-03 11:21:48,498 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-03 11:22:05,301 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-03 11:22:05,385 - BaseTest -INFO - Browser launched
+2018-05-03 11:22:06,266 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-03 11:22:37,909 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-03 11:22:38,040 - BaseTest -INFO - Browser launched
+2018-05-03 11:22:38,858 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-03 11:22:57,352 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-03 11:22:57,431 - BaseTest -INFO - Browser launched
+2018-05-03 11:22:58,386 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-03 11:23:39,847 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-03 11:23:39,918 - BaseTest -INFO - Browser launched
+2018-05-03 11:23:40,782 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-03 11:56:58,549 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-03 11:56:58,683 - BaseTest -INFO - Browser launched
+2018-05-03 11:56:59,445 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-03 11:57:35,716 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-03 11:57:35,828 - BaseTest -INFO - Browser launched
+2018-05-03 11:57:36,608 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-03 11:58:57,048 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-03 11:58:57,159 - BaseTest -INFO - Browser launched
+2018-05-03 11:58:58,046 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-03 12:01:08,728 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-03 12:01:08,885 - BaseTest -INFO - Browser launched
+2018-05-03 12:01:09,687 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-03 12:29:39,893 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-03 12:29:40,014 - BaseTest -INFO - Browser launched
+2018-05-03 12:30:00,582 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-03 12:41:25,978 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-03 12:41:26,206 - BaseTest -INFO - Browser launched
+2018-05-03 12:41:27,229 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-03 12:42:52,295 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-03 12:42:52,427 - BaseTest -INFO - Browser launched
+2018-05-03 12:42:53,314 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-03 12:43:28,852 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-03 12:43:28,935 - BaseTest -INFO - Browser launched
+2018-05-03 12:43:29,784 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-03 12:44:05,268 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-03 12:44:05,392 - BaseTest -INFO - Browser launched
+2018-05-03 12:44:06,188 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-03 12:44:40,736 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-03 12:44:40,861 - BaseTest -INFO - Browser launched
+2018-05-03 12:44:41,565 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-03 12:45:22,575 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-03 12:45:22,653 - BaseTest -INFO - Browser launched
+2018-05-03 12:45:23,445 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-03 12:45:54,295 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-03 12:45:54,375 - BaseTest -INFO - Browser launched
+2018-05-03 12:45:55,434 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-03 12:46:27,389 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-03 12:46:27,472 - BaseTest -INFO - Browser launched
+2018-05-03 12:46:28,267 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-03 12:46:54,295 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-03 12:46:54,392 - BaseTest -INFO - Browser launched
+2018-05-03 12:46:55,170 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-03 12:47:23,126 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-03 12:47:23,212 - BaseTest -INFO - Browser launched
+2018-05-03 12:47:24,066 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-03 12:47:53,241 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-03 12:47:53,328 - BaseTest -INFO - Browser launched
+2018-05-03 12:47:54,283 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-03 12:48:19,899 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-03 12:48:19,976 - BaseTest -INFO - Browser launched
+2018-05-03 12:48:20,818 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-03 12:48:34,475 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-03 12:48:34,621 - BaseTest -INFO - Browser launched
+2018-05-03 12:48:35,377 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-03 12:49:01,743 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-03 12:49:01,861 - BaseTest -INFO - Browser launched
+2018-05-03 12:49:02,683 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-03 12:49:21,993 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-03 12:49:22,068 - BaseTest -INFO - Browser launched
+2018-05-03 12:49:22,988 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-03 12:49:56,997 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-03 12:49:57,144 - BaseTest -INFO - Browser launched
+2018-05-03 12:49:58,206 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-03 12:50:16,777 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-03 12:50:16,870 - BaseTest -INFO - Browser launched
+2018-05-03 12:50:17,652 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-03 12:50:59,655 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-03 12:50:59,759 - BaseTest -INFO - Browser launched
+2018-05-03 12:51:00,676 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-03 12:55:34,001 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-03 12:55:34,105 - BaseTest -INFO - Browser launched
+2018-05-03 12:55:35,037 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-03 12:57:08,439 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-03 12:57:08,532 - BaseTest -INFO - Browser launched
+2018-05-03 12:57:09,497 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-03 13:02:21,270 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-03 13:02:21,372 - BaseTest -INFO - Browser launched
+2018-05-03 13:02:22,075 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-03 13:03:25,436 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-03 13:03:25,534 - BaseTest -INFO - Browser launched
+2018-05-03 13:03:26,278 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-03 13:04:48,208 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-03 13:04:48,288 - BaseTest -INFO - Browser launched
+2018-05-03 13:04:49,284 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-03 13:12:27,201 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-03 13:12:27,288 - BaseTest -INFO - Browser launched
+2018-05-03 13:12:28,590 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-03 13:17:43,423 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-03 13:17:43,524 - BaseTest -INFO - Browser launched
+2018-05-03 13:17:44,276 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-03 13:18:11,665 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-03 13:18:11,763 - BaseTest -INFO - Browser launched
+2018-05-03 13:18:13,105 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-03 13:23:07,547 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-03 13:23:07,886 - BaseTest -INFO - Browser launched
+2018-05-03 13:23:10,016 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-03 13:27:31,925 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-03 13:27:32,031 - BaseTest -INFO - Browser launched
+2018-05-03 13:27:32,849 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-03 13:50:20,134 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-03 13:50:20,222 - BaseTest -INFO - Browser launched
+2018-05-03 13:50:21,029 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-03 13:56:53,065 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-03 13:56:53,165 - BaseTest -INFO - Browser launched
+2018-05-03 13:56:53,959 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-03 13:58:50,098 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-03 13:58:50,221 - BaseTest -INFO - Browser launched
+2018-05-03 13:58:50,978 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-03 14:08:18,368 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-03 14:08:18,459 - BaseTest -INFO - Browser launched
+2018-05-03 14:08:19,201 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-03 15:09:35,057 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-03 15:09:35,138 - BaseTest -INFO - Browser launched
+2018-05-03 15:09:36,132 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-03 15:17:59,032 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-03 15:17:59,162 - BaseTest -INFO - Browser launched
+2018-05-03 15:17:59,914 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-03 15:18:26,474 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-03 15:18:26,555 - BaseTest -INFO - Browser launched
+2018-05-03 15:18:27,409 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-03 15:20:23,571 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-03 15:20:23,656 - BaseTest -INFO - Browser launched
+2018-05-03 15:20:24,458 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-03 15:21:18,237 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-03 15:21:18,334 - BaseTest -INFO - Browser launched
+2018-05-03 15:21:19,522 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-03 15:22:56,438 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-03 15:22:56,542 - BaseTest -INFO - Browser launched
+2018-05-03 15:22:58,014 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-03 15:36:54,312 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-03 15:36:54,404 - BaseTest -INFO - Browser launched
+2018-05-03 15:36:55,322 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-03 15:49:44,838 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-03 15:49:44,914 - BaseTest -INFO - Browser launched
+2018-05-03 15:49:45,739 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-03 15:59:38,468 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-03 15:59:38,562 - BaseTest -INFO - Browser launched
+2018-05-03 15:59:39,354 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-03 16:15:18,859 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-03 16:15:18,946 - BaseTest -INFO - Browser launched
+2018-05-03 16:15:19,763 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-03 16:16:55,505 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-03 16:16:55,613 - BaseTest -INFO - Browser launched
+2018-05-03 16:16:56,395 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-03 16:20:56,178 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-03 16:20:56,268 - BaseTest -INFO - Browser launched
+2018-05-03 16:20:57,057 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-03 16:23:20,137 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-03 16:23:20,233 - BaseTest -INFO - Browser launched
+2018-05-03 16:23:20,988 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-03 16:50:53,579 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-03 16:50:53,674 - BaseTest -INFO - Browser launched
+2018-05-03 16:50:54,653 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-03 17:06:53,653 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-03 17:06:53,762 - BaseTest -INFO - Browser launched
+2018-05-03 17:06:54,619 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-03 17:08:12,776 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-03 17:08:12,939 - BaseTest -INFO - Browser launched
+2018-05-03 17:08:13,646 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-03 17:25:08,364 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-03 17:25:08,468 - BaseTest -INFO - Browser launched
+2018-05-03 17:25:09,384 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-03 17:37:08,564 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-03 17:37:08,654 - BaseTest -INFO - Browser launched
+2018-05-03 17:37:09,393 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-03 17:51:46,528 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-03 17:51:46,628 - BaseTest -INFO - Browser launched
+2018-05-03 17:51:47,313 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-03 22:12:11,569 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-03 22:12:11,702 - BaseTest -INFO - Browser launched
+2018-05-03 22:12:12,523 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-03 22:13:21,976 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-03 22:13:22,072 - BaseTest -INFO - Browser launched
+2018-05-03 22:13:22,945 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-03 22:14:58,869 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-03 22:14:59,001 - BaseTest -INFO - Browser launched
+2018-05-03 22:14:59,845 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-03 22:18:14,118 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-03 22:18:14,236 - BaseTest -INFO - Browser launched
+2018-05-03 22:18:15,237 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-03 22:25:15,602 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-03 22:25:15,705 - BaseTest -INFO - Browser launched
+2018-05-03 22:25:16,534 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-03 22:33:56,543 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-03 22:33:56,617 - BaseTest -INFO - Browser launched
+2018-05-03 22:33:57,476 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-03 22:40:28,055 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-03 22:40:28,136 - BaseTest -INFO - Browser launched
+2018-05-03 22:40:28,886 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-03 22:41:02,332 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-03 22:41:02,425 - BaseTest -INFO - Browser launched
+2018-05-03 22:41:03,239 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-03 22:55:22,310 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-03 22:55:22,395 - BaseTest -INFO - Browser launched
+2018-05-03 22:55:23,082 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-03 23:00:56,995 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-03 23:00:57,079 - BaseTest -INFO - Browser launched
+2018-05-03 23:00:57,751 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-03 23:11:02,638 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-03 23:11:02,744 - BaseTest -INFO - Browser launched
+2018-05-03 23:11:03,475 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-03 23:13:56,386 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-03 23:13:56,479 - BaseTest -INFO - Browser launched
+2018-05-03 23:13:57,229 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-03 23:20:08,051 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-03 23:20:08,202 - BaseTest -INFO - Browser launched
+2018-05-03 23:20:08,978 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-03 23:21:40,155 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-03 23:21:40,248 - BaseTest -INFO - Browser launched
+2018-05-03 23:21:41,045 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-03 23:47:14,222 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-03 23:47:14,310 - BaseTest -INFO - Browser launched
+2018-05-03 23:47:15,185 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-03 23:47:51,841 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-03 23:47:51,931 - BaseTest -INFO - Browser launched
+2018-05-03 23:47:52,712 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-03 23:55:59,497 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-03 23:55:59,619 - BaseTest -INFO - Browser launched
+2018-05-03 23:56:00,541 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-04 00:07:09,202 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-04 00:07:09,276 - BaseTest -INFO - Browser launched
+2018-05-04 00:07:10,182 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-04 00:07:38,876 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-04 00:07:38,950 - BaseTest -INFO - Browser launched
+2018-05-04 00:07:39,731 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-04 00:08:12,271 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-04 00:08:12,369 - BaseTest -INFO - Browser launched
+2018-05-04 00:08:13,122 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-04 00:25:12,953 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-04 00:25:13,075 - BaseTest -INFO - Browser launched
+2018-05-04 00:25:13,767 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-04 00:33:03,003 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-04 00:33:03,158 - BaseTest -INFO - Browser launched
+2018-05-04 00:33:04,002 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-04 00:45:02,921 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-04 00:45:03,005 - BaseTest -INFO - Browser launched
+2018-05-04 00:45:03,739 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-04 09:29:35,490 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-04 09:29:35,634 - BaseTest -INFO - Browser launched
+2018-05-04 09:29:36,616 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-04 09:36:00,259 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-04 09:36:00,360 - BaseTest -INFO - Browser launched
+2018-05-04 09:36:01,254 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-04 10:39:13,055 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-04 10:39:13,372 - BaseTest -INFO - Browser launched
+2018-05-04 10:39:14,546 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-04 10:42:51,564 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-04 10:42:51,686 - BaseTest -INFO - Browser launched
+2018-05-04 10:42:52,744 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-09 14:52:48,262 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-09 14:52:48,496 - BaseTest -INFO - Browser launched
+2018-05-09 14:52:49,591 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-09 14:58:31,008 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-09 14:58:31,094 - BaseTest -INFO - Browser launched
+2018-05-09 14:58:31,945 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-09 14:58:37,752 - BaseTest -INFO - TEST-SWATOZ....
+2018-05-09 15:05:37,543 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-09 15:05:37,634 - BaseTest -INFO - Browser launched
+2018-05-09 15:05:38,452 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-09 15:05:46,909 - BaseTest -INFO - TC_05 search button is clicked  
+2018-05-09 15:05:59,874 - BaseTest -INFO - TC_05 Agent Domain specified , operator Equals, Deny Policy  
+2018-05-09 15:06:01,862 - BaseTest -INFO - TC_05 Agent Domain specified , operator Equals, Deny Policy  is present in the polciy tab  
+2018-05-09 15:06:07,004 - BaseTest -INFO - TC_02 policy is revoked from the policy tab 
+2018-05-09 15:06:07,005 - BaseTest -INFO - TC_02 record level policy is created, tested and revoked . TC01 is passed  
+2018-05-09 15:19:37,616 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-09 15:19:37,734 - BaseTest -INFO - Browser launched
+2018-05-09 15:19:38,755 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-09 15:19:42,808 - BaseTest -INFO - TC_015 HIC-record level Domain policy creation began 
+2018-05-09 15:20:06,176 - BaseTest -INFO - TC_015 HIC-record level Domain policy created 
+2018-05-09 15:20:07,972 - BaseTest -INFO - TC_015 HIC-record level Domain policy created and is displayed in the policy table 
+2018-05-09 15:20:12,541 - BaseTest -INFO - TC_015 HIC-record level Domain policy revoked  
+2018-05-09 15:20:12,541 - BaseTest -INFO - TC_015 HIC-record level Domain policy created and revoked success . Test passed 
+2018-05-09 15:21:09,473 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-09 15:21:09,595 - BaseTest -INFO - Browser launched
+2018-05-09 15:21:10,420 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-09 15:21:14,734 - BaseTest -INFO - TC_015 HIC-record level Domain policy creation began 
+2018-05-09 15:21:37,798 - BaseTest -INFO - TC_015 HIC-record level Domain policy created 
+2018-05-09 15:21:39,531 - BaseTest -INFO - TC_015 HIC-record level Domain policy created and is displayed in the policy table 
+2018-05-09 15:21:44,189 - BaseTest -INFO - TC_015 HIC-record level Domain policy revoked  
+2018-05-09 15:21:44,190 - BaseTest -INFO - TC_015 HIC-record level Domain policy created and revoked success . Test passed 
+2018-05-09 15:33:14,848 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-09 15:33:14,950 - BaseTest -INFO - Browser launched
+2018-05-09 15:33:15,987 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-09 15:33:34,749 - BaseTest -INFO - TC_016 Global Domain,deny Policy is created 
+2018-05-09 15:33:36,781 - BaseTest -INFO - TC_016 Global Domain,deny Policy created and is displayed in the policy table 
+2018-05-09 15:33:41,880 - BaseTest -INFO - TC_016 Global Domain,deny Policy is revoked 
+2018-05-09 15:33:42,427 - BaseTest -INFO - TC_016 Global Domain,deny Policy is created, and revoked successfully  
+2018-05-09 15:33:42,428 - BaseTest -INFO - TC_016 testcase passed successfully  
+2018-05-09 16:03:33,622 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-09 16:03:33,735 - BaseTest -INFO - Browser launched
+2018-05-09 16:03:34,893 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-09 16:03:41,249 - BaseTest -INFO - Id is searched ....
+2018-05-09 16:03:46,014 - BaseTest -INFO - TC_017 record level policy creation began 
+2018-05-09 16:03:53,507 - BaseTest -INFO -  TC_017 record level policy saved successfully 
+2018-05-09 16:03:55,407 - BaseTest -INFO -  TC_017 record level policy found in the table
+2018-05-09 16:03:55,408 - BaseTest -INFO -  TC_017 Agent level policy creation began 
+2018-05-09 16:04:06,260 - BaseTest -INFO -  TC_017 agent level policy saved successfully 
+2018-05-09 16:04:08,319 - BaseTest -INFO -  TC_017 agent level policy found in the policy table successfully 
+2018-05-09 16:04:08,329 - BaseTest -INFO -  TC_017  HIC Agent level policy creation began 
+2018-05-09 16:04:20,026 - BaseTest -INFO -  TC_017 HIC Agent level policy saved successfully 
+2018-05-09 16:04:22,126 - BaseTest -INFO -  TC_017 HIC agent level policy found in the policy table successfully 
+2018-05-09 16:04:22,136 - BaseTest -INFO -  TC_017 HIC record level policy creation began 
+2018-05-09 16:04:41,544 - BaseTest -INFO - TC_017 record level policy saved successfully 
+2018-05-09 16:04:44,105 - BaseTest -INFO - TC_017 record level policy saved and is present in the table  
+2018-05-09 16:04:44,120 - BaseTest -INFO - TC_017 Global level policy creation began 
+2018-05-09 16:04:50,287 - BaseTest -INFO - TC_017 Global level policy saved successfully 
+2018-05-09 16:04:52,502 - BaseTest -INFO - TC_017 Global level policy saved successfully 
+2018-05-09 16:04:54,346 - BaseTest -INFO - TC_017 record level policy  execution order is correct 
+2018-05-09 16:04:59,169 - BaseTest -INFO - TC_017 record level policy is revoked 
+2018-05-09 16:04:59,255 - BaseTest -INFO - TC_017 Agent level policy  execution order is correct 
+2018-05-09 16:05:06,222 - BaseTest -INFO -  TC_017  Agent level revoked 
+2018-05-09 16:05:06,223 - BaseTest -INFO -  TC_017 HIC Agent level is in correct execution order  
+2018-05-09 16:05:11,509 - BaseTest -INFO -  TC_017 HIC Agent level is revoked   
+2018-05-09 16:05:13,119 - BaseTest -INFO -  TC_017 HIC-Records level is in correct execution order  
+2018-05-09 16:05:13,207 - BaseTest -INFO - TC_017 HIC-Records level is revoked  
+2018-05-09 16:05:19,846 - BaseTest -INFO - TC_017 HIC-Records level is revoked  
+2018-05-09 16:05:19,858 - BaseTest -INFO - TC_017 Global  level is in correct order   
+2018-05-09 16:05:26,154 - BaseTest -INFO - TC_017 Global level is revoked  
+2018-05-09 16:17:22,335 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-09 16:17:22,443 - BaseTest -INFO - Browser launched
+2018-05-09 16:17:23,376 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-09 16:17:33,373 - BaseTest -INFO - TC_019 ID is searched 
+2018-05-09 16:17:40,678 - BaseTest -INFO - TC_019 report is scheduled 
+2018-05-09 16:17:44,780 - BaseTest -INFO - TC_019  passed for report generation  report generation  
+2018-05-09 17:09:46,279 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-09 17:09:46,417 - BaseTest -INFO - Browser launched
+2018-05-09 17:09:47,396 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-09 17:09:57,789 - BaseTest -INFO - TC_024 TestCase checked for admin title  
+2018-05-09 17:10:08,032 - BaseTest -INFO - TC_024 TestCase passed  
+2018-05-09 17:10:08,036 - BaseTest -INFO - TC_024 TestCase reached end of execution 
+2018-05-09 17:17:15,487 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-09 17:17:15,572 - BaseTest -INFO - Browser launched
+2018-05-09 17:17:16,384 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-09 17:17:20,776 - BaseTest -INFO - TC_026 code is s testcae began  
+2018-05-09 17:17:28,207 - BaseTest -INFO - TC_026 System CD is saved  
+2018-05-09 17:19:06,517 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-09 17:19:49,120 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-09 17:19:49,298 - BaseTest -INFO - Browser launched
+2018-05-09 17:19:50,206 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-09 17:19:53,934 - BaseTest -INFO - TC_026 code is s testcae began  
+2018-05-09 17:20:01,813 - BaseTest -INFO - TC_026 System CD is saved  
+2018-05-09 17:21:50,069 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-09 17:21:50,154 - BaseTest -INFO - Browser launched
+2018-05-09 17:21:51,263 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-09 17:21:55,104 - BaseTest -INFO - TC_026 code is s testcae began  
+2018-05-09 17:22:03,108 - BaseTest -INFO - TC_026 System CD is saved  
+2018-05-09 17:24:28,316 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-09 17:24:28,435 - BaseTest -INFO - Browser launched
+2018-05-09 17:24:29,268 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-09 17:24:33,646 - BaseTest -INFO - TC_026 code is s testcae began  
+2018-05-09 17:24:41,105 - BaseTest -INFO - TC_026 System CD is saved  
+2018-05-09 17:24:47,544 - BaseTest -INFO - TC_026 System CD is revoked  
+2018-05-09 17:24:48,817 - BaseTest -INFO - TC_026 System CD test is complete  
+2018-05-09 17:26:33,452 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-09 17:26:33,543 - BaseTest -INFO - Browser launched
+2018-05-09 17:26:34,504 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-09 17:26:42,214 - BaseTest -INFO - TC_027 code is s testcase began  
+2018-05-09 17:26:43,744 - BaseTest -INFO - TC_027 testcase is successfull  
+2018-05-09 17:30:38,437 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-09 17:30:38,607 - BaseTest -INFO - Browser launched
+2018-05-09 17:30:39,422 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-09 17:30:50,520 - BaseTest -INFO - TC_028 record level policy creation began  
+2018-05-09 17:30:59,296 - BaseTest -INFO - TC_028 record level policy is created  
+2018-05-09 17:30:59,390 - BaseTest -INFO - TC_028 record level policy is created  in the policy table 
+2018-05-09 17:32:10,690 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-09 17:32:10,777 - BaseTest -INFO - Browser launched
+2018-05-09 17:32:11,723 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-09 17:32:23,154 - BaseTest -INFO - TC_028 record level policy creation began  
+2018-05-09 17:32:32,395 - BaseTest -INFO - TC_028 record level policy is created  
+2018-05-09 17:32:32,485 - BaseTest -INFO - TC_028 record level policy is created  in the policy table 
+2018-05-09 17:32:36,758 - BaseTest -INFO - TC_028 search by ecid value 
+2018-05-09 17:32:41,077 - BaseTest -INFO - TC_028 seaching by PCR  id 
+2018-05-09 17:32:49,230 - BaseTest -INFO - TC_028 policy is revoked  
+2018-05-09 17:32:49,706 - BaseTest -INFO - TC_028 policy execution reached end of execution  
+2018-05-09 17:36:35,102 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-09 17:36:35,178 - BaseTest -INFO - Browser launched
+2018-05-09 17:36:36,016 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-09 17:36:40,385 - BaseTest -INFO - TC_029 scheduled pdf audit report testcase began  
+2018-05-09 17:36:48,555 - BaseTest -INFO - TC_029 scheduled pdf audit report 
+2018-05-09 17:36:52,164 - BaseTest -INFO - TC_029 scheduled audit report testcase passed  
+2018-05-09 17:39:53,478 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-09 17:39:53,615 - BaseTest -INFO - Browser launched
+2018-05-09 17:39:54,679 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-09 17:39:58,723 - BaseTest -INFO - TC_029 scheduled pdf audit report testcase began  
+2018-05-09 17:40:06,777 - BaseTest -INFO - TC_029 scheduled pdf audit report 
+2018-05-09 17:40:12,032 - BaseTest -INFO - TC_029 scheduled audit report testcase passed  
+2018-05-09 17:43:55,691 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-09 17:43:55,841 - BaseTest -INFO - Browser launched
+2018-05-09 17:43:56,787 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-09 17:44:01,105 - BaseTest -INFO - TC_030 System CD creation and testing in test tab  
+2018-05-09 17:45:17,119 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-09 17:45:17,221 - BaseTest -INFO - Browser launched
+2018-05-09 17:45:18,069 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-09 17:45:22,141 - BaseTest -INFO - TC_030 System CD creation and testing in test tab  
+2018-05-09 17:45:36,768 - BaseTest -INFO -  TC _30 deny all policy is created   
+2018-05-09 17:45:49,989 - BaseTest -INFO -  TC _30 test page logic began    
+2018-05-09 17:46:10,846 - BaseTest -INFO -  TC _30 test page System Directive is returned    
+2018-05-09 17:46:12,771 - BaseTest -INFO -  TC _30 revoke SD began   
+2018-05-10 09:13:03,752 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-10 09:13:04,026 - BaseTest -INFO - Browser launched
+2018-05-10 09:13:05,862 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-10 09:19:17,834 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-10 09:19:21,428 - BaseTest -INFO - Browser launched
+2018-05-10 09:19:22,498 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-10 09:19:28,614 - BaseTest -INFO - Id is searched ....
+2018-05-10 09:19:39,909 - BaseTest -INFO - TC_02 save button is clicked for policy 
+2018-05-10 09:19:40,017 - BaseTest -INFO - TC_02 policy is saved 
+2018-05-10 09:19:41,752 - BaseTest -INFO - TC_02 policy is present in the policy tab 
+2018-05-10 09:19:46,324 - BaseTest -INFO - TC_02 policy is revoked from the policy tab 
+2018-05-10 09:19:46,325 - BaseTest -INFO - TC_02 record level policy is created, tested and revoked . TC01 is passed  
+2018-05-10 09:19:57,438 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-10 09:19:57,522 - BaseTest -INFO - Browser launched
+2018-05-10 09:19:58,495 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-10 09:20:06,680 - BaseTest -INFO - TC_05 search button is clicked  
+2018-05-10 09:20:18,829 - BaseTest -INFO - TC_05 Agent Domain specified , operator Equals, Deny Policy  
+2018-05-10 09:20:20,498 - BaseTest -INFO - TC_05 Agent Domain specified , operator Equals, Deny Policy  is present in the polciy tab  
+2018-05-10 09:20:24,857 - BaseTest -INFO - TC_05 policy is revoked from the policy tab 
+2018-05-10 09:20:24,860 - BaseTest -INFO - TC_05 record level policy is created, tested and revoked . TC05 is passed  
+2018-05-10 09:20:34,371 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-10 09:20:34,462 - BaseTest -INFO - Browser launched
+2018-05-10 09:20:35,825 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-10 09:20:39,523 - BaseTest -INFO - TC_013 HIC-Agent Domain policy creation began 
+2018-05-10 09:20:57,016 - BaseTest -INFO - TC_013 HIC-Agent Domain policy saved 
+2018-05-10 09:21:02,631 - BaseTest -INFO -  TC_013 HIC-Agent Domain policy was revoked  
+2018-05-10 09:21:02,920 - BaseTest -INFO - TC_013 HIC-Agent Domain policy was created and  revoked   
+2018-05-10 09:21:13,409 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-10 09:21:13,506 - BaseTest -INFO - Browser launched
+2018-05-10 09:21:14,457 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-10 09:21:18,372 - BaseTest -INFO - TC_015 HIC-record level Domain policy creation began 
+2018-05-10 09:21:41,413 - BaseTest -INFO - TC_015 HIC-record level Domain policy created 
+2018-05-10 09:21:43,465 - BaseTest -INFO - TC_015 HIC-record level Domain policy created and is displayed in the policy table 
+2018-05-10 09:21:48,753 - BaseTest -INFO - TC_015 HIC-record level Domain policy revoked  
+2018-05-10 09:21:48,754 - BaseTest -INFO - TC_015 HIC-record level Domain policy created and revoked success . Test passed 
+2018-05-10 09:21:58,300 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-10 09:21:58,426 - BaseTest -INFO - Browser launched
+2018-05-10 09:21:59,447 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-10 09:22:13,999 - BaseTest -INFO - TC_016 Global Domain,deny Policy is created 
+2018-05-10 09:22:15,764 - BaseTest -INFO - TC_016 Global Domain,deny Policy created and is displayed in the policy table 
+2018-05-10 09:22:19,683 - BaseTest -INFO - TC_016 Global Domain,deny Policy is revoked 
+2018-05-10 09:22:20,097 - BaseTest -INFO - TC_016 Global Domain,deny Policy is created, and revoked successfully  
+2018-05-10 09:22:20,098 - BaseTest -INFO - TC_016 testcase passed successfully  
+2018-05-10 09:22:29,547 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-10 09:22:29,632 - BaseTest -INFO - Browser launched
+2018-05-10 09:22:30,519 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-10 09:22:38,988 - BaseTest -INFO - Id is searched ....
+2018-05-10 09:22:44,249 - BaseTest -INFO - TC_017 record level policy creation began 
+2018-05-10 09:22:52,312 - BaseTest -INFO -  TC_017 record level policy saved successfully 
+2018-05-10 09:22:54,270 - BaseTest -INFO -  TC_017 record level policy found in the table
+2018-05-10 09:22:54,270 - BaseTest -INFO -  TC_017 Agent level policy creation began 
+2018-05-10 09:23:05,495 - BaseTest -INFO -  TC_017 agent level policy saved successfully 
+2018-05-10 09:23:07,619 - BaseTest -INFO -  TC_017 agent level policy found in the policy table successfully 
+2018-05-10 09:23:07,628 - BaseTest -INFO -  TC_017  HIC Agent level policy creation began 
+2018-05-10 09:23:21,308 - BaseTest -INFO -  TC_017 HIC Agent level policy saved successfully 
+2018-05-10 09:23:23,356 - BaseTest -INFO -  TC_017 HIC agent level policy found in the policy table successfully 
+2018-05-10 09:23:23,366 - BaseTest -INFO -  TC_017 HIC record level policy creation began 
+2018-05-10 09:23:42,939 - BaseTest -INFO - TC_017 record level policy saved successfully 
+2018-05-10 09:23:45,103 - BaseTest -INFO - TC_017 record level policy saved and is present in the table  
+2018-05-10 09:23:45,114 - BaseTest -INFO - TC_017 Global level policy creation began 
+2018-05-10 09:23:49,974 - BaseTest -INFO - TC_017 Global level policy saved successfully 
+2018-05-10 09:23:52,097 - BaseTest -INFO - TC_017 Global level policy saved successfully 
+2018-05-10 09:23:53,623 - BaseTest -INFO - TC_017 record level policy  execution order is correct 
+2018-05-10 09:23:58,018 - BaseTest -INFO - TC_017 record level policy is revoked 
+2018-05-10 09:23:58,383 - BaseTest -INFO - TC_017 Agent level policy  execution order is correct 
+2018-05-10 09:24:04,250 - BaseTest -INFO -  TC_017  Agent level revoked 
+2018-05-10 09:24:04,253 - BaseTest -INFO -  TC_017 HIC Agent level is in correct execution order  
+2018-05-10 09:24:09,085 - BaseTest -INFO -  TC_017 HIC Agent level is revoked   
+2018-05-10 09:24:10,559 - BaseTest -INFO -  TC_017 HIC-Records level is in correct execution order  
+2018-05-10 09:24:10,642 - BaseTest -INFO - TC_017 HIC-Records level is revoked  
+2018-05-10 09:24:16,580 - BaseTest -INFO - TC_017 HIC-Records level is revoked  
+2018-05-10 09:24:16,588 - BaseTest -INFO - TC_017 Global  level is in correct order   
+2018-05-10 09:24:22,028 - BaseTest -INFO - TC_017 Global level is revoked  
+2018-05-10 09:24:32,500 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-10 09:24:32,586 - BaseTest -INFO - Browser launched
+2018-05-10 09:24:33,565 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-10 09:24:43,492 - BaseTest -INFO - TC_018 name is selected for report generation  
+2018-05-10 09:24:46,155 - BaseTest -INFO - TC_018 id is searched for client   
+2018-05-10 09:24:50,351 - BaseTest -INFO - TC_018 report is scheduled  
+2018-05-10 09:24:56,134 - BaseTest -INFO - TC_018 report is scheduled and tescase Passed  
+2018-05-10 09:25:05,442 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-10 09:25:05,534 - BaseTest -INFO - Browser launched
+2018-05-10 09:25:06,445 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-10 09:25:15,992 - BaseTest -INFO - TC_019 ID is searched 
+2018-05-10 09:25:22,646 - BaseTest -INFO - TC_019 report is scheduled 
+2018-05-10 09:25:28,082 - BaseTest -INFO - TC_019  passed for report generation  report generation  
+2018-05-10 09:25:37,525 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-10 09:25:37,601 - BaseTest -INFO - Browser launched
+2018-05-10 09:25:38,585 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-10 09:26:06,681 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-10 09:26:06,779 - BaseTest -INFO - Browser launched
+2018-05-10 09:26:07,727 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-10 09:26:11,504 - BaseTest -INFO - TC_021 report generation help  
+2018-05-10 09:26:35,606 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-10 09:26:35,714 - BaseTest -INFO - Browser launched
+2018-05-10 09:26:36,521 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-10 09:26:42,559 - BaseTest -INFO - TC_022 clickSecurityAlert() 
+2018-05-10 09:27:02,717 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-10 09:27:02,790 - BaseTest -INFO - Browser launched
+2018-05-10 09:27:03,501 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-10 09:27:21,581 - BaseTest -INFO - TC_023 record leveln deny all policy is created  
+2018-05-10 09:27:27,367 - BaseTest -INFO - TC_023 record level allow all policy is created  
+2018-05-10 09:27:30,025 - BaseTest -INFO - TC_023 record level allow all policy is created  
+2018-05-10 09:27:37,090 - BaseTest -INFO - TC_023 record level allow all policy is revoked   
+2018-05-10 09:27:41,434 - BaseTest -INFO - TC_023 record level allow all policy is revoked   
+2018-05-10 09:27:41,434 - BaseTest -INFO - TC_023TestCase reached end of execution 
+2018-05-10 09:27:50,811 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-10 09:27:50,874 - BaseTest -INFO - Browser launched
+2018-05-10 09:27:51,751 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-10 09:27:58,365 - BaseTest -INFO - TC_024 TestCase checked for admin title  
+2018-05-10 09:28:08,407 - BaseTest -INFO - TC_024 TestCase passed  
+2018-05-10 09:28:08,407 - BaseTest -INFO - TC_024 TestCase reached end of execution 
+2018-05-10 09:28:17,762 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-10 09:28:17,883 - BaseTest -INFO - Browser launched
+2018-05-10 09:28:18,723 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-10 09:28:24,729 - BaseTest -INFO - TC_025 code is set  
+2018-05-10 09:28:26,280 - BaseTest -INFO - TC_025 POU description is created 
+2018-05-10 09:28:26,281 - BaseTest -INFO - TC_025 testcase reached end of execution   
+2018-05-10 09:28:36,680 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-10 09:28:36,760 - BaseTest -INFO - Browser launched
+2018-05-10 09:28:37,584 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-10 09:28:41,249 - BaseTest -INFO - TC_026 code is s testcase began  
+2018-05-10 09:28:48,071 - BaseTest -INFO - TC_026 System CD is saved  
+2018-05-10 09:28:53,749 - BaseTest -INFO - TC_026 System CD is revoked  
+2018-05-10 09:28:54,881 - BaseTest -INFO - TC_026 System CD test is complete  
+2018-05-10 09:29:04,427 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-10 09:29:04,516 - BaseTest -INFO - Browser launched
+2018-05-10 09:29:05,728 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-10 09:29:12,861 - BaseTest -INFO - TC_027 code is s testcase began  
+2018-05-10 09:29:14,265 - BaseTest -INFO - TC_027 testcase is successfull  
+2018-05-10 09:29:23,532 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-10 09:29:23,614 - BaseTest -INFO - Browser launched
+2018-05-10 09:29:24,401 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-10 09:29:33,685 - BaseTest -INFO - TC_028 record level policy creation began  
+2018-05-10 09:29:41,264 - BaseTest -INFO - TC_028 record level policy is created  
+2018-05-10 09:29:41,383 - BaseTest -INFO - TC_028 record level policy is created  in the policy table 
+2018-05-10 09:29:45,197 - BaseTest -INFO - TC_028 search by ecid value 
+2018-05-10 09:29:48,586 - BaseTest -INFO - TC_028 seaching by PCR  id 
+2018-05-10 09:29:55,732 - BaseTest -INFO - TC_028 policy is revoked  
+2018-05-10 09:29:56,087 - BaseTest -INFO - TC_028 policy execution reached end of execution  
+2018-05-10 09:30:05,454 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-10 09:30:05,593 - BaseTest -INFO - Browser launched
+2018-05-10 09:30:06,447 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-10 09:30:10,191 - BaseTest -INFO - TC_029 scheduled pdf audit report testcase began  
+2018-05-10 09:30:17,817 - BaseTest -INFO - TC_029 scheduled pdf audit report 
+2018-05-10 09:30:23,061 - BaseTest -INFO - TC_029 scheduled audit report testcase passed  
+2018-05-10 09:30:32,402 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-10 09:30:32,481 - BaseTest -INFO - Browser launched
+2018-05-10 09:30:33,256 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-10 09:30:37,027 - BaseTest -INFO - TC_030 System CD creation and testing in test tab  
+2018-05-10 09:30:50,546 - BaseTest -INFO -  TC _30 deny all policy is created   
+2018-05-10 09:31:02,226 - BaseTest -INFO -  TC _30 test page logic began    
+2018-05-10 09:31:21,438 - BaseTest -INFO -  TC _30 test page System Directive is returned    
+2018-05-10 09:31:23,458 - BaseTest -INFO -  TC _30 revoke SD began   
+2018-05-10 09:31:29,264 - BaseTest -INFO -  TC _30 passed 
+2018-05-10 09:31:38,530 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-10 09:31:38,692 - BaseTest -INFO - Browser launched
+2018-05-10 09:31:39,686 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-10 09:32:39,929 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-10 09:32:40,071 - BaseTest -INFO - Browser launched
+2018-05-10 09:32:40,944 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-10 09:32:44,616 - BaseTest -INFO - TC_032 System Directive is creation began  
+2018-05-10 09:32:53,178 - BaseTest -INFO - TC_032 System Directive is creation ended  
+2018-05-10 09:32:53,178 - BaseTest -INFO - TC_032policy creation 	 began 
+2018-05-10 09:33:00,904 - BaseTest -INFO - TC_032record level policy creation started  
+2018-05-10 09:33:06,778 - BaseTest -INFO - TC_032record level policy ended 
+2018-05-10 09:33:06,778 - BaseTest -INFO - TC_032  agent level policy  creation  
+2018-05-10 09:33:26,384 - BaseTest -INFO - TC_032  agent level policy  ended  
+2018-05-10 09:33:26,384 - BaseTest -INFO - TC_032  HIC agent level policy  creation  
+2018-05-10 09:33:39,330 - BaseTest -INFO - TC_032  HIC agent level policy ended  
+2018-05-10 09:33:39,331 - BaseTest -INFO - TC_032  HIC agent level policy creation  
+2018-05-10 09:33:57,517 - BaseTest -INFO - TC_032  HIC-Record Policy ended  
+2018-05-10 09:33:57,518 - BaseTest -INFO - TC_032  Global level policy  creation  
+2018-05-10 09:34:04,686 - BaseTest -INFO - TC_032  Global level policy  ended  
+2018-05-10 09:34:04,693 - BaseTest -INFO - TC_032  test page for policy record level  
+2018-05-10 09:34:37,527 - BaseTest -INFO - TC_032  test revoke record level ended  
+2018-05-10 09:34:38,866 - BaseTest -INFO - TC_032  test Agent Domain Deny Policy 
+2018-05-10 09:35:10,260 - BaseTest -INFO - TC_032  test Agent Domain Deny Policy 
+2018-05-10 09:35:36,474 - BaseTest -INFO - TC_032  HIC-Agent Domain policy present 
+2018-05-10 09:35:36,475 - BaseTest -INFO - TC_032  HIC-Agent Domain policy revoking  
+2018-05-10 09:35:44,491 - BaseTest -INFO - TC_032  HIC-record Domain policy revoking  
+2018-05-10 09:36:12,045 - BaseTest -INFO - TC_032  HIC-record Domain policy present in test tab  
+2018-05-10 09:36:19,722 - BaseTest -INFO - TC_032  HIC-record Domain policy revoked 
+2018-05-10 09:36:19,722 - BaseTest -INFO - TC_032 global policy  Domain policy test  began 
+2018-05-10 09:36:39,086 - BaseTest -INFO - TC_032 global policy  Domain policy revoke policy began 
+2018-05-10 09:36:49,099 - BaseTest -INFO - TC_032 global policy  Domain policy revoked 
+2018-05-10 09:36:49,099 - BaseTest -INFO - TC_032  checking for System Directive 
+2018-05-10 09:37:15,402 - BaseTest -INFO - TC_032  System Directive test began 
+2018-05-10 09:37:16,952 - BaseTest -INFO - TC_032  System Directive revoke began 
+2018-05-10 09:37:49,348 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-10 09:37:49,438 - BaseTest -INFO - Browser launched
+2018-05-10 09:37:50,559 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-10 09:38:49,257 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-10 09:38:49,364 - BaseTest -INFO - Browser launched
+2018-05-10 09:38:50,281 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-10 09:39:49,220 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-10 09:39:49,345 - BaseTest -INFO - Browser launched
+2018-05-10 09:39:50,245 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-10 09:39:55,869 - BaseTest -INFO - TC_035  Searching id
+2018-05-10 09:40:06,675 - BaseTest -INFO - TC_035  Policy was saved successfully.
+2018-05-10 09:40:08,432 - BaseTest -INFO - TC_035  checking if the policy is created 
+2018-05-10 09:40:29,656 - BaseTest -INFO - TC_035  checking override test began 
+2018-05-10 09:40:32,213 - BaseTest -INFO - TC_035  Temporary Override Requested 
+2018-05-10 09:40:35,160 - BaseTest -INFO - TC_035  Temporary Override Found 
+2018-05-10 09:40:41,884 - BaseTest -INFO - TC_035  Policy was revoked successfully
+2018-05-10 09:40:43,568 - BaseTest -INFO - TC_035  Passed TC _035
+2018-05-17 10:11:00,434 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-17 10:11:00,690 - BaseTest -INFO - Browser launched
+2018-05-17 10:11:01,682 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-17 10:11:07,478 - BaseTest -INFO - Id is searched ....
+2018-05-17 10:16:31,010 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-17 10:16:31,114 - BaseTest -INFO - Browser launched
+2018-05-17 10:16:32,033 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-17 10:16:37,640 - BaseTest -INFO - Id is searched ....
+2018-05-17 10:19:09,083 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-17 10:19:09,195 - BaseTest -INFO - Browser launched
+2018-05-17 10:19:10,206 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-17 10:19:16,214 - BaseTest -INFO - Id is searched ....
+2018-05-17 10:24:33,660 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-17 10:24:33,768 - BaseTest -INFO - Browser launched
+2018-05-17 10:24:34,646 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-17 10:25:12,823 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-17 10:25:12,906 - BaseTest -INFO - Browser launched
+2018-05-17 10:25:13,751 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-17 10:25:51,631 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-17 10:25:51,735 - BaseTest -INFO - Browser launched
+2018-05-17 10:25:52,514 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-17 10:25:58,755 - BaseTest -INFO - Id is searched ....
+2018-05-17 10:28:09,987 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-17 10:28:10,098 - BaseTest -INFO - Browser launched
+2018-05-17 10:28:10,872 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-17 10:28:47,202 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-17 10:28:47,293 - BaseTest -INFO - Browser launched
+2018-05-17 10:28:48,155 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-17 10:28:54,540 - BaseTest -INFO - Id is searched ....
+2018-05-17 10:30:15,281 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-17 10:30:15,433 - BaseTest -INFO - Browser launched
+2018-05-17 10:30:16,381 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-17 10:30:22,099 - BaseTest -INFO - Id is searched ....
+2018-05-17 10:33:52,068 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-17 10:33:52,215 - BaseTest -INFO - Browser launched
+2018-05-17 10:33:53,165 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-17 10:33:58,705 - BaseTest -INFO - Id is searched ....
+2018-05-17 10:34:35,335 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-17 10:34:35,441 - BaseTest -INFO - Browser launched
+2018-05-17 10:34:36,252 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-17 10:35:02,726 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-17 10:35:02,826 - BaseTest -INFO - Browser launched
+2018-05-17 10:35:03,748 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-17 10:35:09,583 - BaseTest -INFO - Id is searched ....
+2018-05-17 10:35:43,299 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-17 10:35:43,384 - BaseTest -INFO - Browser launched
+2018-05-17 10:35:44,272 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-17 10:35:50,148 - BaseTest -INFO - Id is searched ....
+2018-05-17 10:36:24,453 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-17 10:36:24,572 - BaseTest -INFO - Browser launched
+2018-05-17 10:36:25,329 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-17 10:36:31,504 - BaseTest -INFO - Id is searched ....
+2018-05-17 10:38:50,087 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-17 10:38:50,172 - BaseTest -INFO - Browser launched
+2018-05-17 10:38:51,063 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-17 10:38:56,950 - BaseTest -INFO - Id is searched ....
+2018-05-17 10:40:27,177 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-17 10:40:27,371 - BaseTest -INFO - Browser launched
+2018-05-17 10:40:28,326 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-17 10:40:55,630 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-17 10:40:55,724 - BaseTest -INFO - Browser launched
+2018-05-17 10:40:56,710 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-17 10:41:02,415 - BaseTest -INFO - Id is searched ....
+2018-05-17 10:43:43,465 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-17 10:43:43,568 - BaseTest -INFO - Browser launched
+2018-05-17 10:43:44,445 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-17 10:43:50,460 - BaseTest -INFO - Id is searched ....
+2018-05-17 11:14:58,504 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-17 11:14:58,618 - BaseTest -INFO - Browser launched
+2018-05-17 11:14:59,419 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-17 11:15:03,213 - BaseTest -INFO - TC_026 code is s testcase began  
+2018-05-17 11:31:32,635 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-17 11:31:32,765 - BaseTest -INFO - Browser launched
+2018-05-17 11:31:33,582 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-17 11:31:37,915 - BaseTest -INFO - TC_026 code is s testcase began  
+2018-05-17 11:36:03,258 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-17 11:36:03,388 - BaseTest -INFO - Browser launched
+2018-05-17 11:36:04,303 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-17 11:36:08,688 - BaseTest -INFO - TC_026 code is s testcase began  
+2018-05-17 11:37:52,071 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-17 11:37:52,172 - BaseTest -INFO - Browser launched
+2018-05-17 11:37:53,447 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-17 11:37:57,365 - BaseTest -INFO - TC_026 code is s testcase began  
+2018-05-17 11:40:05,937 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-17 11:40:06,036 - BaseTest -INFO - Browser launched
+2018-05-17 11:40:07,270 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-17 11:40:12,216 - BaseTest -INFO - TC_026 code is s testcase began  
+2018-05-17 11:41:12,994 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-17 11:41:13,091 - BaseTest -INFO - Browser launched
+2018-05-17 11:41:13,948 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-17 11:41:18,422 - BaseTest -INFO - TC_026 code is s testcase began  
+2018-05-17 11:43:26,453 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-17 11:43:26,566 - BaseTest -INFO - Browser launched
+2018-05-17 11:43:27,468 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-17 11:43:31,756 - BaseTest -INFO - TC_026 code is s testcase began  
+2018-05-17 11:53:54,563 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-17 11:53:54,724 - BaseTest -INFO - Browser launched
+2018-05-17 11:53:55,671 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-17 11:54:00,467 - BaseTest -INFO - TC_026 code is s testcase began  
+2018-05-17 11:54:53,084 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-17 11:54:53,177 - BaseTest -INFO - Browser launched
+2018-05-17 11:54:54,773 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-17 11:54:59,463 - BaseTest -INFO - TC_026 code is s testcase began  
+2018-05-17 11:56:36,592 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-17 11:56:36,686 - BaseTest -INFO - Browser launched
+2018-05-17 11:56:37,793 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-17 11:56:42,006 - BaseTest -INFO - TC_026 code is s testcase began  
+2018-05-17 11:57:05,896 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-17 11:57:05,990 - BaseTest -INFO - Browser launched
+2018-05-17 11:57:07,005 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-17 11:57:11,369 - BaseTest -INFO - TC_026 code is s testcase began  
+2018-05-17 11:57:33,583 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-17 11:57:33,751 - BaseTest -INFO - Browser launched
+2018-05-17 11:57:34,626 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-17 11:57:39,358 - BaseTest -INFO - TC_026 code is s testcase began  
+2018-05-17 12:00:03,553 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-17 12:00:03,655 - BaseTest -INFO - Browser launched
+2018-05-17 12:00:04,639 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-17 12:00:08,380 - BaseTest -INFO - TC_026 code is s testcase began  
+2018-05-17 12:00:31,335 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-17 12:00:31,459 - BaseTest -INFO - Browser launched
+2018-05-17 12:00:32,409 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-17 12:00:36,635 - BaseTest -INFO - TC_026 code is s testcase began  
+2018-05-17 12:01:42,649 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-17 12:01:42,786 - BaseTest -INFO - Browser launched
+2018-05-17 12:01:43,676 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-17 12:01:48,697 - BaseTest -INFO - TC_026 code is s testcase began  
+2018-05-17 12:03:30,297 - BaseTest -INFO - Initializing Mozilla browser
+2018-05-17 12:03:30,436 - BaseTest -INFO - Browser launched
+2018-05-17 12:03:31,225 - BaseTest -INFO - Navigating to URL ....appURL
+2018-05-17 12:03:35,151 - BaseTest -INFO - TC_026 code is s testcase began  

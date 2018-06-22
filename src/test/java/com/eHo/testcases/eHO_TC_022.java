@@ -37,6 +37,8 @@ public class eHO_TC_022 extends BaseTest{
 			NavigationPage navigationPage=new NavigationPage(driver);
 			navigationPage.clickAuditRepository();
 			navigationPage.clickSecurityAlert();
+			logger.info("TC_022 clickSecurityAlert() ");	
+			
 			
 			navigationPage.clickHelp();
 			Set <String> separate=driver.getWindowHandles();
@@ -54,6 +56,7 @@ public class eHO_TC_022 extends BaseTest{
 				softAssert.assertEquals(expectedMessage, actualMessage);
 				driver.close();
 			}
+			logger.info("TC_022 clickSecurityAlert help passed ");	
 			
 
 		}

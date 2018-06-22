@@ -36,7 +36,11 @@
     </test> 
 
 
-   
+    <test name=" Test case TC 017">
+      <classes>
+         <class name="com.eHo.testcases.eHO_TC_017"/>
+      </classes>
+    </test> 
    
    <test name=" Test case TC 018">
       <classes>
@@ -99,12 +103,44 @@
       </classes>
     </test>
     
-    <test name=" Test case TC 29">
+    <test name=" Test case TC 029">
       <classes>
          <class name="com.eHo.testcases.eHO_TC_029"/>
       </classes>
     </test>
     
+    <test name=" Test case TC 030">
+      <classes>
+         <class name="com.eHo.testcases.eHO_TC_030"/>
+      </classes>
+    </test>
+     <test name=" Test case TC 031">
+      <classes>
+         <class name="com.eHo.testcases.eHO_TC_031"/>
+      </classes>
+    </test>
+     <test name=" Test case TC 032">
+      <classes>
+         <class name="com.eHo.testcases.eHO_TC_032"/>
+      </classes>
+    </test>
     
+     <test name=" Test case TC 033">
+      <classes>
+         <class name="com.eHo.testcases.eHO_TC_033"/>
+      </classes>
+    </test>
+    
+    <test name=" Test case TC 034">
+      <classes>
+         <class name="com.eHo.testcases.eHO_TC_034"/>
+      </classes>
+    </test>
+     <test name=" Test case TC 035">
+      <classes>
+         <class name="com.eHo.testcases.eHO_TC_035"/>
+      </classes>
+    </test>
+   
    
 </suite>

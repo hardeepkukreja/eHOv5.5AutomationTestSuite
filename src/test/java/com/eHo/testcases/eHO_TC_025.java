@@ -43,18 +43,16 @@ public class eHO_TC_025 extends BaseTest{
 		navigationPage.clickPurposeOfUse();
 		PurposeOfUsePage purposeofusepage= new PurposeOfUsePage(driver);
 		purposeofusepage.setCode("12345");
-		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);		
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		logger.info("TC_025 code is set  ");		
+		
 		purposeofusepage.setDescription("POU Description");
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		purposeofusepage.clickSave();
-	
-				
-	
-		
 		String actualSource=driver.getPageSource();
 		boolean a= actualSource.contains("12345");
 		boolean b= actualSource.contains("POU Description");
-		
+		logger.info("TC_025 POU description is created ");		
 		if(a==true && b==true)
 		{	
 			System.out.println("Passed");
@@ -68,14 +66,15 @@ public class eHO_TC_025 extends BaseTest{
 			
 		}
 		
-		
+		logger.info("TC_025 testcase reached end of execution   ");
 		}
 		catch(Exception ex)
 		{
 			softAssert.assertFalse(true);
 			test.log(LogStatus.FAIL, "Test case for record level is failed");
 			test.log(LogStatus.INFO, ex.getLocalizedMessage());
-		}		
+		}	
+		// add revoke 
 	softAssert.assertAll();
 }
 

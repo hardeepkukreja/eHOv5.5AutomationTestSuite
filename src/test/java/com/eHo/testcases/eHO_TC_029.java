@@ -21,7 +21,7 @@ public class eHO_TC_029 extends BaseTest {
 	}
 
 	
-	@Test public void TC_028Test() // record level 
+	@Test public void TC_029Test() // record level 
 	{
 		try
 		{
@@ -33,6 +33,9 @@ public class eHO_TC_029 extends BaseTest {
 		driver.findElement(By.xpath(prop.getProperty("loginSubmit"))).click();
 		test.log(LogStatus.INFO, "Clicked submit button");
 		NavigationPage navigationPage=new NavigationPage(driver);
+
+		logger.info("TC_029 scheduled pdf audit report testcase began  ");
+		
 		navigationPage.clickReport();
 		navigationPage.clickAuditReports();
 		AuditReportsPage auditreportspage= new AuditReportsPage(driver);
@@ -47,6 +50,8 @@ public class eHO_TC_029 extends BaseTest {
 		auditreportspage.txtScheduleDesc("Scheduled audit report");
 		auditreportspage.clickbtnSchedule();
 		auditreportspage.clickbtnPdfSchedule();
+
+		logger.info("TC_029 scheduled pdf audit report ");
 		
 	 driver.manage().timeouts().implicitlyWait(100, TimeUnit.SECONDS);
 		
@@ -68,13 +73,15 @@ public class eHO_TC_029 extends BaseTest {
 	 	String actualMessage1=driver.findElement(By.xpath(".//*[@id='resultData']/tbody/tr[1]/td[3]/div")).getText();		
 		System.out.println(actualMessage1);
 		softAssert.assertEquals(expectedMessage1, actualMessage1);
-		
+		 driver.manage().timeouts().implicitlyWait(100, TimeUnit.SECONDS);
+			
 		
 		String statusActual =driver.findElement(By.xpath(".//*[@id='resultData']/tbody/tr[1]/td[4]/div")).getText();
 		String statusExpected= "Scheduled";
 		softAssert.assertEquals(statusActual, statusExpected);
 		
-
+		logger.info("TC_029 scheduled audit report testcase passed  ");
+		
 	
 		}
 		catch(Exception ex)

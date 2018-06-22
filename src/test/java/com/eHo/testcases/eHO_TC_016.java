@@ -28,7 +28,7 @@ public class eHO_TC_016 extends BaseTest{
 		try
 		{
 			test=rep.startTest("TC_016Test");
-			test.log(LogStatus.INFO, "Starting the test case to check the basic flow of Agent level policy creation ");
+			test.log(LogStatus.INFO, "Starting the test case to check the basic flow of global policy creation ");
 			openBrowser(prop.getProperty("browser"));//this is the method from BaseTest class that opens up the browser based upon the parameter
 			navigate("appURL");//to navigate to the application
 			driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
@@ -41,36 +41,42 @@ public class eHO_TC_016 extends BaseTest{
 			navigationPage.clickConsent();
 			navigationPage.clickManagement();
 			clientSearch.setID(prop.getProperty("id"));
-			test.log(LogStatus.INFO, "Searching Id");
+			
 			clientSearch.clickSearch();
 			clientSearch.clickClientName();
 			clientPolicies.clickNewDirective();
 			clientPolicies.clickGlobal();
 			globalpage.selectDirectiveOutcome("Deny");
-			globalpage.setPolicyDescription("Global Domain specified,deny Policy");
+			globalpage.setPolicyDescription("Global Domain, deny Policy");
 			globalpage.clickDomainAll();
 			globalpage.clickSave();
-		
+			logger.info("TC_016 Global Domain,deny Policy is created ");
+			
 			String expectedMessage="Policy was saved successfully.";
 			String actualMessage=driver.findElement(By.xpath("//*[@id='infoMessagesDialog']/table/tbody/tr/td")).getText();
 			softAssert.assertEquals(expectedMessage, actualMessage);
+			
 			globalpage.clickBack();
-		
+			logger.info("TC_016 Global Domain,deny Policy created and is displayed in the policy table ");
+			
 			actualMessage= driver.findElement(By.xpath(".//*[@id='policiesResult:j_id_6j:0:j_id_6l']")).getText();
-			expectedMessage="Global Domain specified,deny Policy";			
+			expectedMessage="Global Domain, deny Policy";			
 			softAssert.assertEquals(expectedMessage, actualMessage);
 			globalpage.clickPolicy();
 			globalpage.clickRevoke();
 			globalpage.clickYesConfirmation();
-				
+			logger.info("TC_016 Global Domain,deny Policy is revoked ");
+			
 			expectedMessage="Policy was revoked successfully.";
 			actualMessage=driver.findElement(By.xpath(".//*[@id='infoMessagesDialog']/table/tbody/tr/td")).getText();		
 				
 			softAssert.assertEquals(expectedMessage, actualMessage);
 			globalpage.clickCloseMessageBox();
+			logger.info("TC_016 Global Domain,deny Policy is created, and revoked successfully  ");
 			
 				System.out.println("Passed TC _16");
-			
+				logger.info("TC_016 testcase passed successfully  ");
+				
 			
 		}	
 		catch(Exception ex)

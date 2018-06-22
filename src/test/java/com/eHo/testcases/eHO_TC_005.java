@@ -1,3 +1,4 @@
+/*  An agent level  policy creation - 'Deny' policy with domain specific, operator equals*/
 package com.eHo.testcases;
 
 import java.util.concurrent.TimeUnit;
@@ -16,14 +17,12 @@ import com.eHo.pageobjects.ClientSearchPage;
 import com.eHo.pageobjects.NavigationPage;
 import com.relevantcodes.extentreports.LogStatus;
 
-//Scenario 1: An agent level 'Deny' policy with domain specific, operator equals  
-//will be created 
 public class eHO_TC_005 extends BaseTest{
 	
 	@BeforeMethod()
 	public void setUp()
 	{
-		init();	//this is the method of BaseTest class to perform initialization
+		init();	
 	}
 	
 	@Test
@@ -48,6 +47,7 @@ public class eHO_TC_005 extends BaseTest{
 			clientSearch.setID(prop.getProperty("id"));
 			test.log(LogStatus.INFO, "Searching Id");
 			clientSearch.clickSearch();
+			 logger.info("TC_05 search button is clicked  ");	
 			clientSearch.clickClientName();
 			clientPolicies.clickNewDirective();
 			clientPolicies.clickAgent();
@@ -62,17 +62,19 @@ public class eHO_TC_005 extends BaseTest{
 			agentSelectPage.setID("2.16.840.1.113883.3.239.18.14410003977");
 			agentSelectPage.clickReturnSelected();
 			agentPolicyDetailPage.clickSave();
-			
+			 logger.info("TC_05 Agent Domain specified , operator Equals, Deny Policy  ");	
+				
 			String expectedMessage="Policy was saved successfully.";
 			String actualMessage=driver.findElement(By.xpath("//*[@id='infoMessagesDialog']/table/tbody/tr/td")).getText();
 			softAssert.assertEquals(expectedMessage, actualMessage);
 			agentPolicyDetailPage.clickBack();
 		
 			actualMessage= driver.findElement(By.xpath(".//*[@id='policiesResult:j_id_6j:0:j_id_6l']")).getText();
-			 expectedMessage="Agent Domain specified , operator Equals, Deny Policy";			
+			expectedMessage="Agent Domain specified , operator Equals, Deny Policy";			
 			 softAssert.assertEquals(expectedMessage, actualMessage);
 			
-			
+			 logger.info("TC_05 Agent Domain specified , operator Equals, Deny Policy  is present in the polciy tab  ");	
+				
 			
 			agentPolicyDetailPage.clickPolicy();
 			agentPolicyDetailPage.clickRevoke();
@@ -83,9 +85,12 @@ public class eHO_TC_005 extends BaseTest{
 			
 			softAssert.assertEquals(expectedMessage, actualMessage);
 			agentPolicyDetailPage.clickCloseMessageBox();
-			System.out.println("Passed TC _005");
-			
 		
+			
+			 logger.info("TC_05 policy is revoked from the policy tab ");	
+			System.out.println("Passed TC _005");
+			logger.info("TC_05 record level policy is created, tested and revoked . TC05 is passed  ");	
+				
 		}
 		catch(Exception ex)
 		{

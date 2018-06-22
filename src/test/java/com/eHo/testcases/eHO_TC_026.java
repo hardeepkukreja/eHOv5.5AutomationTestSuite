@@ -1,7 +1,5 @@
 package com.eHo.testcases;
 
-import java.text.SimpleDateFormat;
-import java.util.Date;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
@@ -28,24 +26,25 @@ public class eHO_TC_026 extends BaseTest{
 		try
 		{
 		test=rep.startTest("TC_026 Test");
-		test.log(LogStatus.INFO, "Starting the test case to check the basic flow of record level policy creation ");
+		test.log(LogStatus.INFO, "creation of System Directive");
 		openBrowser(prop.getProperty("browser"));//this is the method from BaseTest class that opens up the browser based upon the parameter
 		navigate("appURL");//to navigate to the application
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		driver.findElement(By.xpath(prop.getProperty("loginSubmit"))).click();
 		test.log(LogStatus.INFO, "Clicked submit button");
 		NavigationPage navigationPage=new NavigationPage(driver);
+		logger.info("TC_026 code is s testcase began  ");
 		
 		navigationPage.clickConsent();
 		navigationPage.clickSystemDirectives();
 		SystemDirectivePage systemdirectivepage= new SystemDirectivePage(driver);
 		systemdirectivepage.clickBtnNewDirective();
 		systemdirectivepage.clickBtnAdvanced();
-		systemdirectivepage.setTxtDirectiveTitle("Automation Title for directive");
+		systemdirectivepage.setTxtDirectiveTitle("Automation Title TC26");
 		systemdirectivepage.clickBtnSave();
 		systemdirectivepage.setTxtSaveComment("Comment from automation script");
 		systemdirectivepage.clickBtnSaveContinue();
-		
+		logger.info("TC_026 System CD is saved  ");
 		
 		// information Message has been sent successfully to Consent Validation to reload the system directive cache.
 		
@@ -53,27 +52,10 @@ public class eHO_TC_026 extends BaseTest{
 		String actualMessage=driver.findElement(By.xpath("//*[@id='infoMessagesDialog']/table/tbody/tr/td")).getText();
 		softAssert.assertEquals(expectedMessage, actualMessage);
 		systemdirectivepage.clickBtnBack();
-		SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd");   
-		Date date = new Date();   
-		String currentDate= formatter.format(date);
-		System.out.println(currentDate);
-		String actualDate=driver.findElement(By.xpath(".//*[@id='0']/td[3]")).getText();	
-		System.out.println(actualDate); 
-		softAssert.assertEquals(currentDate, actualDate);	
-			
-	/*	 if(currentDate==actualDate)
-		{
-			
-			System.out.println("Passed date");
-			softAssert.assertFalse(false);
-		}
-		else
-		{ softAssert.assertFalse(true);
-		}
-			
-			*/
+		
+	
 		String actualSource=driver.getPageSource();
-		boolean a= actualSource.contains("Automation Title for directive");
+		boolean a= actualSource.contains("Automation Title TC26");
 		
 		if(a==true)
 		{	
@@ -87,17 +69,18 @@ public class eHO_TC_026 extends BaseTest{
 		}
 		
 		
-		// revoke SD 
-		systemdirectivepage.clickActiveDirective();
-			systemdirectivepage.clickBtnRevoke();
-		
+		systemdirectivepage.clickActiveSD();
+		systemdirectivepage.clickBtnRevoke();
 		systemdirectivepage.clickBtnRevokeContinue();
+		logger.info("TC_026 System CD is revoked  ");
 		
 		
 		 expectedMessage="Message has been sent successfully to Consent Validation to reload the system directive cache.";
 		 actualMessage=driver.findElement(By.xpath("//*[@id='infoMessagesDialog']/table/tbody/tr/td")).getText();
 		softAssert.assertEquals(expectedMessage, actualMessage);	
 		systemdirectivepage.clickBtnBack();
+		
+		logger.info("TC_026 System CD test is complete  ");
 		
 		}
 		catch(Exception ex)

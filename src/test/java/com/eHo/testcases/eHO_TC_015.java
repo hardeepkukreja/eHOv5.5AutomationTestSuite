@@ -38,6 +38,8 @@ public class eHO_TC_015 extends BaseTest{
 			ClientSearchPage clientSearch=new ClientSearchPage(driver);
 			ClientPolicies clientPolicies=new ClientPolicies(driver);
 			HicRecordsPage hicRecordsPage=new HicRecordsPage(driver);
+			logger.info("TC_015 HIC-record level Domain policy creation began ");	
+			
 			navigationPage.clickConsent();
 			navigationPage.clickManagement();
 			clientSearch.setID(prop.getProperty("id"));
@@ -47,19 +49,22 @@ public class eHO_TC_015 extends BaseTest{
 			clientPolicies.clickNewDirective();
 			clientPolicies.clickHICRecords();
 			hicRecordsPage.selectDirectiveOutcome("Deny");
-			hicRecordsPage.setPolicyDescription("Record Domain specified , operator Not Equals, Deny Policy");
+			hicRecordsPage.setPolicyDescription("HIC Record Domain, operator equals, Deny Policy");
 			hicRecordsPage.clickDomainAll();
-			hicRecordsPage.selectCustodiansExclude();
+			
+			
 			hicRecordsPage.selectCustodians("HIC Source 1");
 			hicRecordsPage.clickSave();
 			String expectedMessage="Policy was saved successfully.";
+			logger.info("TC_015 HIC-record level Domain policy created ");
 			String actualMessage=driver.findElement(By.xpath("//*[@id='infoMessagesDialog']/table/tbody/tr/td")).getText();
 			softAssert.assertEquals(expectedMessage, actualMessage);
 			hicRecordsPage.clickBack();
 			actualMessage= driver.findElement(By.xpath(".//*[@id='policiesResult:j_id_6j:0:j_id_6l']")).getText();
-			 expectedMessage="Record Domain specified , operator Not Equals, Deny Policy";			
-			 softAssert.assertEquals(expectedMessage, actualMessage);
+			expectedMessage="HIC Record Domain, operator equals, Deny Policy";			
+			softAssert.assertEquals(expectedMessage, actualMessage);
 			
+			logger.info("TC_015 HIC-record level Domain policy created and is displayed in the policy table ");
 			 hicRecordsPage.clickPolicy();
 			 hicRecordsPage.clickRevoke();
 			 hicRecordsPage.clickYesConfirmation();
@@ -69,8 +74,11 @@ public class eHO_TC_015 extends BaseTest{
 				
 				softAssert.assertEquals(expectedMessage, actualMessage);
 				hicRecordsPage.clickCloseMessageBox();
-			
+				logger.info("TC_015 HIC-record level Domain policy revoked  ");
+				
 				System.out.println("Passed TC _015");
+				logger.info("TC_015 HIC-record level Domain policy created and revoked success . Test passed ");
+				
 		
 				}		
 		catch(Exception ex)

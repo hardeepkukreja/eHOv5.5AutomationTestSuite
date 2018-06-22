@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="375.924" tests="17" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="519.517" tests="17" errors="0" skipped="0" failures="3">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
-    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_131\jre\bin"/>
-    <property name="java.vm.version" value="25.131-b11"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_141\jre\bin"/>
+    <property name="java.vm.version" value="25.141-b15"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.multiModuleProjectDirectory" value="D:\HIPAAT\CMTA 1C\GUI Automation\Hipaat_eHo"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\Swathi\Desktop\PERSONAL\Hipaat_eHo"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="path.separator" value=";"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -14,45 +14,45 @@
     <property name="user.script" value=""/>
     <property name="user.country" value="CA"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
-    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="sun.os.patch.level" value=""/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="D:\HIPAAT\CMTA 1C\GUI Automation\Hipaat_eHo"/>
-    <property name="java.runtime.version" value="1.8.0_131-b11"/>
+    <property name="user.dir" value="C:\Users\Swathi\Desktop\PERSONAL\Hipaat_eHo"/>
+    <property name="java.runtime.version" value="1.8.0_141-b15"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_131\jre\lib\endorsed"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_141\jre\lib\endorsed"/>
     <property name="os.arch" value="amd64"/>
-    <property name="java.io.tmpdir" value="C:\Users\OJAS\AppData\Local\Temp\"/>
+    <property name="java.io.tmpdir" value="C:\Users\Swathi\AppData\Local\Temp\"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
-    <property name="os.name" value="Windows 7"/>
-    <property name="classworlds.conf" value="C:\Users\OJAS\workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf4411703909686764796.tmp"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Users\Swathi\Eclipse-workspace-New\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf2969628011773909477.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_131\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:/Program Files/Java/jre1.8.0_161/bin/server;C:/Program Files/Java/jre1.8.0_161/bin;C:/Program Files/Java/jre1.8.0_161/lib/amd64;C:\windows\system32;C:\windows;C:\windows\system32\Wbem;C:\ProgramData\Oracle\Java\javapath;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\HP\Unified Functional Testing\bin;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Users\OJAS\AppData\Local\Android\sdk\emulator;C:\Users\OJAS\AppData\Local\Android\sdk\tools;C:\Users\OJAS\AppData\Local\Android\sdk\tools\bin;C:\Users\OJAS\AppData\Local\Android\sdk\platform-tools;C:\Program Files\nodejs;C:\Program Files\nodejs\node_modules\npm\bin;C:\Program Files\PuTTY\;C:\Program Files\apache-maven-3.5.0\bin;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Docker Toolbox;C:\Users\OJAS\AppData\Roaming\npm;C:\Users\OJAS\AppData\Local\atom\bin;C:\eclipse-java-neon-R-win32-x86_64\eclipse;;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_141\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_141/bin/server;C:/Program Files/Java/jre1.8.0_141/bin;C:/Program Files/Java/jre1.8.0_141/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\Program Files (x86)\Intel\TXE Components\TCS\;C:\Program Files\Intel\TXE Components\TCS\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\WINDOWS\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\110\DTS\Binn\;C:\Program Files\Java\jre1.8.0_141\bin;C:\Program Files\Java\jdk1.8.0_141\bin;C:\Program Files (x86)\Skype\Phone\;C:\Users\Swathi\eclipse\apache-maven-3.5.0-bin\apache-maven-3.5.0\bin;C:\Program Files\Git\cmd;C:\Users\Swathi\AppData\Local\Programs\Python\Python36-32;C:\Users\Swathi\AppData\Local\Programs\Python\Python36-32\Scripts;C:\Users\Swathi\firefox\geckodriver;C:\Program Files\apache Maven\apache-maven-3.5.2\bin;C:\Program Files\PuTTY\;C:\Program Files\TortoiseSVN\bin;C:\Users\Swathi\AppData\Local\Microsoft\WindowsApps;;C:\Users\Swathi\Desktop;;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="os.version" value="6.1"/>
-    <property name="user.home" value="C:\Users\OJAS"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\Swathi"/>
     <property name="user.timezone" value="America/New_York"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
     <property name="java.specification.version" value="1.8"/>
     <property name="file.encoding" value="Cp1252"/>
-    <property name="user.name" value="OJAS"/>
-    <property name="java.class.path" value="/C:/eclipse-java-neon-R-win32-x86_64/eclipse/plugins/org.eclipse.m2e.maven.runtime_1.7.0.20160603-1931/jars/plexus-classworlds-2.5.2.jar"/>
+    <property name="user.name" value="Swathi"/>
+    <property name="java.class.path" value="C:\Users\Swathi\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_1.8.3.20180227-2135\jars\plexus-classworlds-2.5.2.jar"/>
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_131\jre"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_141\jre"/>
     <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
     <property name="java.vm.info" value="mixed mode"/>
-    <property name="java.version" value="1.8.0_131"/>
-    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_131\jre\lib\ext;C:\windows\Sun\Java\lib\ext"/>
-    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_131\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_131\jre\classes"/>
+    <property name="java.version" value="1.8.0_141"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_141\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_141\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_141\jre\classes"/>
     <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="maven.home" value="D:\HIPAAT\CMTA 1C\GUI Automation\Hipaat_eHo\EMBEDDED"/>
+    <property name="maven.home" value="C:\Users\Swathi\Desktop\PERSONAL\Hipaat_eHo\EMBEDDED"/>
     <property name="file.separator" value="\"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -60,84 +60,205 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="TC_002Test" classname="com.eHo.testcases.eHO_TC_002" time="40.15"/>
-  <testcase name="TC_005Test" classname="com.eHo.testcases.eHO_TC_005" time="23.773"/>
-  <testcase name="TC_013Test" classname="com.eHo.testcases.eHO_TC_013" time="23.544"/>
-  <testcase name="TC_015Test" classname="com.eHo.testcases.eHO_TC_015" time="27.614"/>
-  <testcase name="TC_016Test" classname="com.eHo.testcases.eHO_TC_016" time="16.964"/>
-  <testcase name="TC_018Test" classname="com.eHo.testcases.eHO_TC_018" time="16.866"/>
-  <testcase name="TC_019Test" classname="com.eHo.testcases.eHO_TC_019" time="17.693"/>
-  <testcase name="TC_020Test" classname="com.eHo.testcases.eHO_TC_020" time="21.967"/>
-  <testcase name="TC_021Test" classname="com.eHo.testcases.eHO_TC_021" time="20.667"/>
-  <testcase name="TC_022Test" classname="com.eHo.testcases.eHO_TC_022" time="20.219"/>
-  <testcase name="TC_023Test" classname="com.eHo.testcases.eHO_TC_023" time="27.22"/>
-  <testcase name="TC_024Test" classname="com.eHo.testcases.eHO_TC_024" time="20.531"/>
-  <testcase name="TC_025Test" classname="com.eHo.testcases.eHO_TC_025" time="10.791"/>
-  <testcase name="TC_026Test" classname="com.eHo.testcases.eHO_TC_026" time="23.104">
+  <testcase name="TC_002Test" classname="com.eHo.testcases.eHO_TC_002" time="36.274"/>
+  <testcase name="TC_005Test" classname="com.eHo.testcases.eHO_TC_005" time="35.474"/>
+  <testcase name="TC_013Test" classname="com.eHo.testcases.eHO_TC_013" time="35.528"/>
+  <testcase name="TC_015Test" classname="com.eHo.testcases.eHO_TC_015" time="40.048"/>
+  <testcase name="TC_016Test" classname="com.eHo.testcases.eHO_TC_016" time="30.828"/>
+  <testcase name="TC_018Test" classname="com.eHo.testcases.eHO_TC_018" time="32.169"/>
+  <testcase name="TC_019Test" classname="com.eHo.testcases.eHO_TC_019" time="25.482">
     <failure message="The following asserts failed:&#10;	expected [false] but found [true]" type="java.lang.AssertionError">java.lang.AssertionError: 
 The following asserts failed:
 	expected [false] but found [true]
-	at com.eHo.testcases.eHO_TC_026.TC_026Test(eHO_TC_026.java:110)
+	at com.eHo.testcases.eHO_TC_019.TC_019Test(eHO_TC_019.java:100)
+</failure>
+    <system-out><![CDATA[TC_018Test
+ INFO [main] (BaseTest.java:64)- Initializing Mozilla browser
+ INFO [main] (BaseTest.java:74)- Browser launched
+ INFO [main] (BaseTest.java:81)- Navigating to URL ....appURL
+]]></system-out>
+    <system-err><![CDATA[1525365978257	Marionette	INFO	New connections will no longer be accepted
+[Parent 16716] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1525365979224	geckodriver	INFO	geckodriver 0.19.1 (0000000000000000000000000000000000000000 2017-10-31)
+1525365979243	geckodriver	INFO	Listening on 127.0.0.1:42856
+1525365979876	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Swathi\\AppData\\Local\\Temp\\rust_mozprofile.9Jk1Lb1vcEJu"
+1525365980430	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///C:/Program%20Files/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+Unable to read VR Path Registry from C:\Users\Swathi\AppData\Local\openvr\openvrpaths.vrpath
+1525365981836	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\Swathi\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Swathi\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 13504] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Swathi\AppData\Local\openvr\openvrpaths.vrpath
+[Child 6184] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6184] WARNING: pipe erroUnable to read VR Path Registry from C:\Users\Swathi\AppData\Local\openvr\openvrpaths.vrpath
+1525365986525	Marionette	INFO	Listening on port 54661
+1525365987230	Marionette	WARN	TLS certificate errors will be ignored for this session
+1525365987333	Marionette	DEBUG	Register listener.js for window 4294967297
+May 03, 2018 12:46:27 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+1525365987509	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1525365987653	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1525365987653	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1525365987673	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://35.194.92.218:9080/DummyServer/login.html"
+1525365987699	Marionette	DEBUG	Received DOM event "pageshow" for "http://35.194.92.218:9080/DummyServer/login.html"
+1525365988470	Marionette	DEBUG	Received DOM event "beforeunload" for "http://35.194.92.218:9080/DummyServer/login.html"
+1525365988795	Marionette	DEBUG	Received DOM event "pagehide" for "http://35.194.92.218:9080/DummyServer/login.html"
+1525365988796	Marionette	DEBUG	Received DOM event "unload" for "http://35.194.92.218:9080/DummyServer/login.html"
+1525365990369	Marionette	DEBUG	Received DOM event "pageshow" for "http://35.194.92.218:9080/esuite-admin/ssoLogin.jsf"
+1525365990469	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://35.194.92.218:9080/esuite-admin/ssoLogin.jsf"
+1525365991785	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://35.194.92.218:9080/esuite-admin/ssoLogin.jsf"
+1525365991886	Marionette	DEBUG	Received DOM event "pageshow" for "http://35.194.92.218:9080/esuite-admin/ssoLogin.jsf"
+1525365992296	Marionette	DEBUG	Received DOM event "beforeunload" for "http://35.194.92.218:9080/esuite-admin/ssoLogin.jsf"
+1525365992454	Marionette	DEBUG	Received DOM event "pagehide" for "http://35.194.92.218:9080/esuite-admin/ssoLogin.jsf"
+1525365992455	Marionette	DEBUG	Received DOM event "unload" for "http://35.194.92.218:9080/esuite-admin/ssoLogin.jsf"
+1525365994664	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://35.194.92.218:9080/esuite-admin/main.jsf"
+1525365994750	Marionette	DEBUG	Received DOM event "pageshow" for "http://35.194.92.218:9080/esuite-admin/main.jsf"
+1525365994978	Marionette	DEBUG	Received DOM event "beforeunload" for "http://35.194.92.218:9080/esuite-admin/main.jsf"
+1525365995093	Marionette	DEBUG	Received DOM event "pagehide" for "http://35.194.92.218:9080/esuite-admin/main.jsf"
+1525365995095	Marionette	DEBUG	Received DOM event "unload" for "http://35.194.92.218:9080/esuite-admin/main.jsf"
+1525365996208	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://35.194.92.218:9080/esuite-admin/cdmsReport.jsf"
+1525365996240	Marionette	DEBUG	Received DOM event "pageshow" for "http://35.194.92.218:9080/esuite-admin/cdmsReport.jsf"
+1525365996475	Marionette	DEBUG	Received DOM event "beforeunload" for "http://35.194.92.218:9080/esuite-admin/cdmsReport.jsf"
+1525365996688	Marionette	DEBUG	Received DOM event "pagehide" for "http://35.194.92.218:9080/esuite-admin/cdmsReport.jsf"
+1525365996701	Marionette	DEBUG	Received DOM event "unload" for "http://35.194.92.218:9080/esuite-admin/cdmsReport.jsf"
+1525365997523	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://35.194.92.218:9080/esuite-admin/cdmsReport.jsf"
+1525365997581	Marionette	DEBUG	Received DOM event "pageshow" for "http://35.194.92.218:9080/esuite-admin/cdmsReport.jsf"
+1525365998120	Marionette	DEBUG	Received DOM event "beforeunload" for "http://35.194.92.218:9080/esuite-admin/cdmsReport.jsf"
+1525365998767	Marionette	DEBUG	Received DOM event "pagehide" for "http://35.194.92.218:9080/esuite-admin/cdmsReport.jsf"
+1525365998768	Marionette	DEBUG	Received DOM event "unload" for "http://35.194.92.218:9080/esuite-admin/cdmsReport.jsf"
+JavaScript error: http://35.194.92.218:9080/esuite-admin/resource/jquery/jquery.js, line 516: Error: cannot call methods on button prior to initialization; attempted to call method 'refresh'
+1525365999598	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://35.194.92.218:9080/esuite-admin/patientSelect.jsf"
+1525365999633	Marionette	DEBUG	Received DOM event "pageshow" for "http://35.194.92.218:9080/esuite-admin/patientSelect.jsf"
+1525365999990	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1525366000144	Marionette	DEBUG	Received DOM event "beforeunload" for "http://35.194.92.218:9080/esuite-admin/patientSelect.jsf"
+1525366000229	Marionette	DEBUG	Received DOM event "pagehide" for "http://35.194.92.218:9080/esuite-admin/patientSelect.jsf"
+1525366000231	Marionette	DEBUG	Received DOM event "unload" for "http://35.194.92.218:9080/esuite-admin/patientSelect.jsf"
+1525366001423	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://35.194.92.218:9080/esuite-admin/patientSelect.jsf"
+1525366001458	Marionette	DEBUG	Received DOM event "pageshow" for "http://35.194.92.218:9080/esuite-admin/patientSelect.jsf"
+1525366001869	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1525366002426	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1525366002553	Marionette	DEBUG	Received DOM event "beforeunload" for "http://35.194.92.218:9080/esuite-admin/patientSelect.jsf"
+1525366002747	Marionette	DEBUG	Received DOM event "pagehide" for "http://35.194.92.218:9080/esuite-admin/patientSelect.jsf"
+1525366002751	Marionette	DEBUG	Received DOM event "unload" for "http://35.194.92.218:9080/esuite-admin/patientSelect.jsf"
+1525366004049	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://35.194.92.218:9080/esuite-admin/cdmsReport.jsf"
+1525366004138	Marionette	DEBUG	Received DOM event "pageshow" for "http://35.194.92.218:9080/esuite-admin/cdmsReport.jsf"
+]]></system-err>
+  </testcase>
+  <testcase name="TC_020Test" classname="com.eHo.testcases.eHO_TC_020" time="27.72"/>
+  <testcase name="TC_021Test" classname="com.eHo.testcases.eHO_TC_021" time="29.22"/>
+  <testcase name="TC_022Test" classname="com.eHo.testcases.eHO_TC_022" time="25.795"/>
+  <testcase name="TC_023Test" classname="com.eHo.testcases.eHO_TC_023" time="13.39">
+    <failure message="The following asserts failed:&#10;	expected [false] but found [true]" type="java.lang.AssertionError">java.lang.AssertionError: 
+The following asserts failed:
+	expected [false] but found [true]
+	at com.eHo.testcases.eHO_TC_023.TC_023Test(eHO_TC_023.java:137)
+</failure>
+    <system-out><![CDATA[TC_022Test
+ INFO [main] (BaseTest.java:64)- Initializing Mozilla browser
+ INFO [main] (BaseTest.java:74)- Browser launched
+ INFO [main] (BaseTest.java:81)- Navigating to URL ....appURL
+]]></system-out>
+    <system-err><![CDATA[1525366090763	Marionette	INFO	New connections will no longer be accepted
+1525366091720	geckodriver	INFO	geckodriver 0.19.1 (0000000000000000000000000000000000000000 2017-10-31)
+1525366091740	geckodriver	INFO	Listening on 127.0.0.1:37698
+1525366092389	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Swathi\\AppData\\Local\\Temp\\rust_mozprofile.AVhKd3T53qYh"
+1525366092957	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///C:/Program%20Files/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+Unable to read VR Path Registry from C:\Users\Swathi\AppData\Local\openvr\openvrpaths.vrpath
+1525366094465	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\Swathi\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Swathi\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Swathi\AppData\Local\openvr\openvrpaths.vrpath
+[Child 13240] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 13240] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/srcUnable to read VR Path Registry from C:\Users\Swathi\AppData\Local\openvr\openvrpaths.vrpath
+1525366099182	Marionette	INFO	Listening on port 54951
+1525366099745	Marionette	WARN	TLS certificate errors will be ignored for this session
+1525366099849	Marionette	DEBUG	Register listener.js for window 4294967297
+May 03, 2018 12:48:19 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+1525366100029	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1525366100190	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1525366100191	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1525366100209	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://35.194.92.218:9080/DummyServer/login.html"
+1525366100234	Marionette	DEBUG	Received DOM event "pageshow" for "http://35.194.92.218:9080/DummyServer/login.html"
+1525366101012	Marionette	DEBUG	Received DOM event "beforeunload" for "http://35.194.92.218:9080/DummyServer/login.html"
+1525366101436	Marionette	DEBUG	Received DOM event "pagehide" for "http://35.194.92.218:9080/DummyServer/login.html"
+1525366101437	Marionette	DEBUG	Received DOM event "unload" for "http://35.194.92.218:9080/DummyServer/login.html"
+1525366103420	Marionette	DEBUG	Received DOM event "pageshow" for "http://35.194.92.218:9080/esuite-admin/ssoLogin.jsf"
+1525366103559	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://35.194.92.218:9080/esuite-admin/ssoLogin.jsf"
+1525366104661	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://35.194.92.218:9080/esuite-admin/ssoLogin.jsf"
+1525366104754	Marionette	DEBUG	Received DOM event "pageshow" for "http://35.194.92.218:9080/esuite-admin/ssoLogin.jsf"
+]]></system-err>
+  </testcase>
+  <testcase name="TC_024Test" classname="com.eHo.testcases.eHO_TC_024" time="26.315"/>
+  <testcase name="TC_025Test" classname="com.eHo.testcases.eHO_TC_025" time="19.336"/>
+  <testcase name="TC_026Test" classname="com.eHo.testcases.eHO_TC_026" time="33.503">
+    <failure message="The following asserts failed:&#10;	expected [false] but found [true]" type="java.lang.AssertionError">java.lang.AssertionError: 
+The following asserts failed:
+	expected [false] but found [true]
+	at com.eHo.testcases.eHO_TC_026.TC_026Test(eHO_TC_026.java:91)
 </failure>
     <system-out><![CDATA[TC_025Test
  INFO [main] (BaseTest.java:64)- Initializing Mozilla browser
  INFO [main] (BaseTest.java:74)- Browser launched
  INFO [main] (BaseTest.java:81)- Navigating to URL ....appURL
-2018-05-03
+Passed
 ]]></system-out>
-    <system-err><![CDATA[1525358807219	Marionette	INFO	New connections will no longer be accepted
-Unable to read VR Path Registry from C:\Users\OJAS\AppData\Local\openvr\openvrpaths.vrpath
-[Child 11000] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
-[Child 11000] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
-1525358807638	geckodriver	INFO	geckodriver 0.19.1 (0000000000000000000000000000000000000000 2017-10-31)
-1525358807679	geckodriver	INFO	Listening on 127.0.0.1:29252
-1525358808183	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\OJAS\\AppData\\Local\\Temp\\rust_mozprofile.yuJnCoLKGUhc"
-1525358808778	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///C:/Program%20Files/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
-1525358809700	Marionette	INFO	Enabled via --marionette
-Unable to read VR Path Registry from C:\Users\OJAS\AppData\Local\openvr\openvrpaths.vrpath
-[Child 9408] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
-1525358812684	Marionette	INFO	Listening on port 3950
-1525358812897	Marionette	WARN	TLS certificate errors will be ignored for this session
-1525358812936	Marionette	DEBUG	Register listener.js for window 6442450945
-May 03, 2018 10:46:52 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+    <system-err><![CDATA[1525366152888	Marionette	INFO	New connections will no longer be accepted
+[Parent 12448] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1525366153754	geckodriver	INFO	geckodriver 0.19.1 (0000000000000000000000000000000000000000 2017-10-31)
+1525366153773	geckodriver	INFO	Listening on 127.0.0.1:13460
+1525366154444	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Swathi\\AppData\\Local\\Temp\\rust_mozprofile.gDVP9P4yGzlS"
+1525366154999	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///C:/Program%20Files/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+Unable to read VR Path Registry from C:\Users\Swathi\AppData\Local\openvr\openvrpaths.vrpath
+1525366156536	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\Swathi\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Swathi\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Swathi\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 15108] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11168] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11168] WARNING: pipe error: 109: file z:/buUnable to read VR Path Registry from C:\Users\Swathi\AppData\Local\openvr\openvrpaths.vrpath
+1525366160841	Marionette	INFO	Listening on port 55131
+1525366161843	Marionette	WARN	TLS certificate errors will be ignored for this session
+1525366161941	Marionette	DEBUG	Register listener.js for window 4294967297
+May 03, 2018 12:49:21 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-1525358813018	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
-1525358813179	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
-1525358813179	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
-1525358813194	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://35.194.92.218:9080/DummyServer/login.html"
-1525358813196	Marionette	DEBUG	Received DOM event "pageshow" for "http://35.194.92.218:9080/DummyServer/login.html"
-1525358814250	Marionette	DEBUG	Received DOM event "beforeunload" for "http://35.194.92.218:9080/DummyServer/login.html"
-1525358814398	Marionette	DEBUG	Received DOM event "pagehide" for "http://35.194.92.218:9080/DummyServer/login.html"
-1525358814398	Marionette	DEBUG	Received DOM event "unload" for "http://35.194.92.218:9080/DummyServer/login.html"
-1525358815564	Marionette	DEBUG	Received DOM event "pageshow" for "http://35.194.92.218:9080/esuite-admin/ssoLogin.jsf"
-1525358815602	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://35.194.92.218:9080/esuite-admin/ssoLogin.jsf"
-1525358816542	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://35.194.92.218:9080/esuite-admin/ssoLogin.jsf"
-1525358816580	Marionette	DEBUG	Received DOM event "pageshow" for "http://35.194.92.218:9080/esuite-admin/ssoLogin.jsf"
-1525358816793	Marionette	DEBUG	Received DOM event "beforeunload" for "http://35.194.92.218:9080/esuite-admin/ssoLogin.jsf"
-1525358816873	Marionette	DEBUG	Received DOM event "pagehide" for "http://35.194.92.218:9080/esuite-admin/ssoLogin.jsf"
-1525358816874	Marionette	DEBUG	Received DOM event "unload" for "http://35.194.92.218:9080/esuite-admin/ssoLogin.jsf"
-1525358817122	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://35.194.92.218:9080/esuite-admin/main.jsf"
-1525358817140	Marionette	DEBUG	Received DOM event "pageshow" for "http://35.194.92.218:9080/esuite-admin/main.jsf"
-1525358817410	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
-1525358817502	Marionette	DEBUG	Received DOM event "beforeunload" for "http://35.194.92.218:9080/esuite-admin/main.jsf"
-1525358817617	Marionette	DEBUG	Received DOM event "pagehide" for "http://35.194.92.218:9080/esuite-admin/main.jsf"
-1525358817618	Marionette	DEBUG	Received DOM event "unload" for "http://35.194.92.218:9080/esuite-admin/main.jsf"
-1525358818119	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://35.194.92.218:9080/esuite-admin/systemDirectiveList.jsf"
-1525358818141	Marionette	DEBUG	Received DOM event "pageshow" for "http://35.194.92.218:9080/esuite-admin/systemDirectiveList.jsf"
-1525358818659	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
-1525358818790	Marionette	DEBUG	Received DOM event "beforeunload" for "http://35.194.92.218:9080/esuite-admin/systemDirectiveList.jsf"
-1525358819116	Marionette	DEBUG	Received DOM event "pagehide" for "http://35.194.92.218:9080/esuite-admin/systemDirectiveList.jsf"
-1525358819116	Marionette	DEBUG	Received DOM event "unload" for "http://35.194.92.218:9080/esuite-admin/systemDirectiveList.jsf"
-1525358819827	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://35.194.92.218:9080/esuite-admin/systemDirectiveDetail.jsf"
-1525358819907	Marionette	DEBUG	Received DOM event "pageshow" for "http://35.194.92.218:9080/esuite-admin/systemDirectiveDetail.jsf"
-1525358820036	Marionette	DEBUG	Received DOM event "beforeunload" for "http://35.194.92.218:9080/esuite-admin/systemDirectiveDetail.jsf"
-1525358820333	Marionette	DEBUG	Received DOM event "pagehide" for "http://35.194.92.218:9080/esuite-admin/systemDirectiveDetail.jsf"
-1525358820334	Marionette	DEBUG	Received DOM event "unload" for "http://35.194.92.218:9080/esuite-admin/systemDirectiveDetail.jsf"
-1525358820624	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://35.194.92.218:9080/esuite-admin/systemDirectiveDetail.jsf"
-1525358820645	Marionette	DEBUG	Received DOM event "pageshow" for "http://35.194.92.218:9080/esuite-admin/systemDirectiveDetail.jsf"
+1525366162102	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1525366162255	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1525366162256	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1525366162324	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://35.194.92.218:9080/DummyServer/login.html"
+1525366162330	Marionette	DEBUG	Received DOM event "pageshow" for "http://35.194.92.218:9080/DummyServer/login.html"
+1525366163529	Marionette	DEBUG	Received DOM event "beforeunload" for "http://35.194.92.218:9080/DummyServer/login.html"
+1525366164342	Marionette	DEBUG	Received DOM event "pagehide" for "http://35.194.92.218:9080/DummyServer/login.html"
+1525366164343	Marionette	DEBUG	Received DOM event "unload" for "http://35.194.92.218:9080/DummyServer/login.html"
+1525366166908	Marionette	DEBUG	Received DOM event "pageshow" for "http://35.194.92.218:9080/esuite-admin/ssoLogin.jsf"
+1525366167061	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://35.194.92.218:9080/esuite-admin/ssoLogin.jsf"
+1525366168442	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://35.194.92.218:9080/esuite-admin/ssoLogin.jsf"
+1525366168463	Marionette	DEBUG	Received DOM event "pageshow" for "http://35.194.92.218:9080/esuite-admin/ssoLogin.jsf"
+1525366168849	Marionette	DEBUG	Received DOM event "beforeunload" for "http://35.194.92.218:9080/esuite-admin/ssoLogin.jsf"
+1525366168949	Marionette	DEBUG	Received DOM event "pagehide" for "http://35.194.92.218:9080/esuite-admin/ssoLogin.jsf"
+1525366168950	Marionette	DEBUG	Received DOM event "unload" for "http://35.194.92.218:9080/esuite-admin/ssoLogin.jsf"
+1525366169921	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://35.194.92.218:9080/esuite-admin/main.jsf"
+1525366169963	Marionette	DEBUG	Received DOM event "pageshow" for "http://35.194.92.218:9080/esuite-admin/main.jsf"
+1525366170384	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1525366170564	Marionette	DEBUG	Received DOM event "beforeunload" for "http://35.194.92.218:9080/esuite-admin/main.jsf"
+1525366170696	Marionette	DEBUG	Received DOM event "pagehide" for "http://35.194.92.218:9080/esuite-admin/main.jsf"
+1525366170698	Marionette	DEBUG	Received DOM event "unload" for "http://35.194.92.218:9080/esuite-admin/main.jsf"
+1525366172120	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://35.194.92.218:9080/esuite-admin/systemDirectiveList.jsf"
+1525366172180	Marionette	DEBUG	Received DOM event "pageshow" for "http://35.194.92.218:9080/esuite-admin/systemDirectiveList.jsf"
+1525366173214	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1525366173588	Marionette	DEBUG	Received DOM event "beforeunload" for "http://35.194.92.218:9080/esuite-admin/systemDirectiveList.jsf"
+1525366173863	Marionette	DEBUG	Received DOM event "pagehide" for "http://35.194.92.218:9080/esuite-admin/systemDirectiveList.jsf"
+1525366173864	Marionette	DEBUG	Received DOM event "unload" for "http://35.194.92.218:9080/esuite-admin/systemDirectiveList.jsf"
+1525366175665	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://35.194.92.218:9080/esuite-admin/systemDirectiveDetail.jsf"
+1525366175731	Marionette	DEBUG	Received DOM event "pageshow" for "http://35.194.92.218:9080/esuite-admin/systemDirectiveDetail.jsf"
+1525366176007	Marionette	DEBUG	Received DOM event "beforeunload" for "http://35.194.92.218:9080/esuite-admin/systemDirectiveDetail.jsf"
+1525366176153	Marionette	DEBUG	Received DOM event "pagehide" for "http://35.194.92.218:9080/esuite-admin/systemDirectiveDetail.jsf"
+1525366176153	Marionette	DEBUG	Received DOM event "unload" for "http://35.194.92.218:9080/esuite-admin/systemDirectiveDetail.jsf"
+1525366177012	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://35.194.92.218:9080/esuite-admin/systemDirectiveDetail.jsf"
+1525366177068	Marionette	DEBUG	Received DOM event "pageshow" for "http://35.194.92.218:9080/esuite-admin/systemDirectiveDetail.jsf"
 ]]></system-err>
   </testcase>
-  <testcase name="TC_027Test" classname="com.eHo.testcases.eHO_TC_027" time="12.551"/>
-  <testcase name="TC_028Test" classname="com.eHo.testcases.eHO_TC_028" time="23.6"/>
-  <testcase name="TC_028Test" classname="com.eHo.testcases.eHO_TC_029" time="17.127"/>
+  <testcase name="TC_027Test" classname="com.eHo.testcases.eHO_TC_027" time="18.982"/>
+  <testcase name="TC_028Test" classname="com.eHo.testcases.eHO_TC_028" time="42.091"/>
+  <testcase name="TC_028Test" classname="com.eHo.testcases.eHO_TC_029" time="26.257"/>
 </testsuite>

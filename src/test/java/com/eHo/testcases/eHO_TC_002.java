@@ -14,7 +14,7 @@ import com.eHo.pageobjects.ClientSearchPage;
 import com.eHo.pageobjects.NavigationPage;
 import com.eHo.pageobjects.RecordLevelPolicyDetailPage;
 import com.relevantcodes.extentreports.LogStatus;
-//Scenario 2: A record level ‘Allow’ policy with domain specific, operator equals will be created 
+// A record level ‘Allow’ policy with domain specific, operator equals will be created 
 public class eHO_TC_002 extends BaseTest{
 	@BeforeMethod()
 	public void setUp()
@@ -39,11 +39,11 @@ public class eHO_TC_002 extends BaseTest{
 		ClientPolicies clientPolicies=new ClientPolicies(driver);
 		RecordLevelPolicyDetailPage recordLevelPolicyDetailPage=new RecordLevelPolicyDetailPage(driver);
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-			
+		
 		navigationPage.clickConsent();
 		navigationPage.clickManagement();
 		clientSearch.setID(prop.getProperty("id"));
-		test.log(LogStatus.INFO, "Searching Id");
+			logger.info("Id is searched ....");	
 		clientSearch.clickSearch();
 		clientSearch.clickClientName();
 		clientPolicies.clickNewDirective();
@@ -56,10 +56,12 @@ public class eHO_TC_002 extends BaseTest{
 		recordLevelPolicyDetailPage.selectRecordType();
 		recordLevelPolicyDetailPage.setRecordText("Sample");
 		recordLevelPolicyDetailPage.clickSave();
+		logger.info("TC_02 save button is clicked for policy ");	
 		
 		String expectedMessage="Policy was saved successfully.";
 		String actualMessage=driver.findElement(By.xpath("//*[@id='infoMessagesDialog']/table/tbody/tr/td")).getText();
 		softAssert.assertEquals(expectedMessage, actualMessage);
+		logger.info("TC_02 policy is saved ");	
 		recordLevelPolicyDetailPage.clickBack();
 		
 
@@ -67,7 +69,8 @@ public class eHO_TC_002 extends BaseTest{
 		 expectedMessage="Record level Domain specific,Operator equals, Allow";			
 		 softAssert.assertEquals(expectedMessage, actualMessage);
 			
-		
+		 logger.info("TC_02 policy is present in the policy tab ");	
+			
 		//revoking the policy 
 		recordLevelPolicyDetailPage.clickPolicy();
 		recordLevelPolicyDetailPage.clickRevoke();
@@ -78,7 +81,9 @@ public class eHO_TC_002 extends BaseTest{
 		
 		softAssert.assertEquals(expectedMessage, actualMessage);
 		recordLevelPolicyDetailPage.clickCloseMessageBox();
+		 logger.info("TC_02 policy is revoked from the policy tab ");	
 		System.out.println("Passed TC _002");
+		 logger.info("TC_02 record level policy is created, tested and revoked . TC01 is passed  ");	
 		
 			
 		

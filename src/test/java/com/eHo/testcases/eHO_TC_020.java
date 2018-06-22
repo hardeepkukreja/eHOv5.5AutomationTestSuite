@@ -6,16 +6,13 @@ import java.util.Set;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
-
 import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import com.eHo.basetest.BaseTest;
-
 import com.eHo.pageobjects.ClientSearchPage;
-
 import com.eHo.pageobjects.NavigationPage;
 import com.relevantcodes.extentreports.LogStatus;
 
@@ -60,6 +57,7 @@ public class eHO_TC_020 extends BaseTest{
 				softAssert.assertEquals(expectedMessage, actualMessage);
 				driver.close();
 			}
+			logger.info("TC_020  Passed ");	
 			
 			
 		

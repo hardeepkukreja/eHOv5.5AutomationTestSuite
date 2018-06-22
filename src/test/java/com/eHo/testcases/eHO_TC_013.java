@@ -1,16 +1,16 @@
+/* HIC agent level policy creation */
+
 package com.eHo.testcases;
 
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
-
 import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import com.eHo.basetest.BaseTest;
-
 import com.eHo.pageobjects.ClientPolicies;
 import com.eHo.pageobjects.ClientSearchPage;
 import com.eHo.pageobjects.HicAgentsPage;
@@ -39,8 +39,8 @@ public class eHO_TC_013 extends BaseTest{
 			NavigationPage navigationPage=new NavigationPage(driver);
 			ClientSearchPage clientSearch=new ClientSearchPage(driver);
 			ClientPolicies clientPolicies=new ClientPolicies(driver);
-	HicAgentsPage hicAgentsPage= new HicAgentsPage(driver);		
-	
+			HicAgentsPage hicAgentsPage= new HicAgentsPage(driver);		
+			logger.info("TC_013 HIC-Agent Domain policy creation began ");	
 			navigationPage.clickConsent();
 			navigationPage.clickManagement();
 			clientSearch.setID(prop.getProperty("id"));
@@ -48,7 +48,6 @@ public class eHO_TC_013 extends BaseTest{
 			clientSearch.clickSearch();
 			clientSearch.clickClientName();
 			clientPolicies.clickNewDirective();
-			
 			clientPolicies.clickHICAgents();
 			hicAgentsPage.selectDirectiveOutcome("Allow");
 			hicAgentsPage.setPolicyDescription("HIC-Agent Domain specified, operator Not Equals, Allow Policy");
@@ -56,17 +55,17 @@ public class eHO_TC_013 extends BaseTest{
 			hicAgentsPage.clickAddCustodian();
 			hicAgentsPage.txtOrganisationNameValue("Toronto");
 			hicAgentsPage.txtMuncipalityValue("Toronto");
-			
 			hicAgentsPage.clickSearch();
 			hicAgentsPage.clickSelectedCity();
 			hicAgentsPage.clickReturnValue();
-		
 			hicAgentsPage.clickSave();
 			String expectedMessage="Policy was saved successfully.";
 			String actualMessage=driver.findElement(By.xpath(".//*[@id='infoMessagesDialog']/table/tbody/tr/td")).getText();
 		
 			
 			softAssert.assertEquals(expectedMessage, actualMessage);
+			logger.info("TC_013 HIC-Agent Domain policy saved ");	
+			
 			hicAgentsPage.clickBack();
 			actualMessage= driver.findElement(By.xpath(".//*[@id='policiesResult:j_id_6j:0:j_id_6l']")).getText();
 			 expectedMessage="HIC-Agent Domain specified, operator Not Equals, Allow Policy";			
@@ -77,8 +76,11 @@ public class eHO_TC_013 extends BaseTest{
 			expectedMessage="Policy was revoked successfully.";
 			actualMessage=driver.findElement(By.xpath(".//*[@id='infoMessagesDialog']/table/tbody/tr/td")).getText();			
 			softAssert.assertEquals(expectedMessage, actualMessage);
+			logger.info(" TC_013 HIC-Agent Domain policy was revoked  ");	
+			
 			hicAgentsPage.clickCloseMessageBox();
 			System.out.println("Testcase 13- passed");
+			logger.info("TC_013 HIC-Agent Domain policy was created and  revoked   ");	
 			
 		
 		

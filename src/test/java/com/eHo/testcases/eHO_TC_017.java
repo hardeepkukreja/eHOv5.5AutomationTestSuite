@@ -33,7 +33,7 @@ public class eHO_TC_017 extends BaseTest{
 		try
 		{
 		test=rep.startTest("TC_0017 Test");
-		test.log(LogStatus.INFO, "Starting the test case to check the basic flow of record level policy creation ");
+		test.log(LogStatus.INFO, "Starting the test case to check the creeation of 5 different types of policy and their execution order ");
 		openBrowser(prop.getProperty("browser"));//this is the method from BaseTest class that opens up the browser based upon the parameter
 		navigate("appURL");//to navigate to the application
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
@@ -47,11 +47,13 @@ public class eHO_TC_017 extends BaseTest{
 		navigationPage.clickManagement();
 		clientSearch.setID(prop.getProperty("id"));
 		test.log(LogStatus.INFO, "Searching Id");
+		logger.info("Id is searched ....");	
 		clientSearch.clickSearch();
 		clientSearch.clickClientName();
 		clientPolicies.clickNewDirective();
+		logger.info("TC_017 record level policy creation began ");
 		clientPolicies.clickRecordLevel();
-		// record level policy 
+	// record level policy 
 		recordLevelPolicyDetailPage.selectDirectiveOutcome("Deny");  
 		recordLevelPolicyDetailPage.setPolicyDescription("Record Level, domain specific, operator equals Policy");
 		recordLevelPolicyDetailPage.selectDomainEqualNotEqual("Equal");
@@ -60,20 +62,22 @@ public class eHO_TC_017 extends BaseTest{
 		recordLevelPolicyDetailPage.selectRecordType();
 		recordLevelPolicyDetailPage.setRecordText("ABC");
 		recordLevelPolicyDetailPage.clickSave();
+		logger.info(" TC_017 record level policy saved successfully ");
 		
 		String expectedMessage="Policy was saved successfully.";
 		String actualMessage=driver.findElement(By.xpath("//*[@id='infoMessagesDialog']/table/tbody/tr/td")).getText();
 		softAssert.assertEquals(expectedMessage, actualMessage);
 		recordLevelPolicyDetailPage.clickBack();
 		//checking if the policy is created 
-
 		 actualMessage= driver.findElement(By.xpath(".//*[@id='policiesResult:j_id_6j:0:j_id_6l']")).getText();
 		 expectedMessage="Record Level, domain specific, operator equals Policy";
-		
 		 softAssert.assertEquals(expectedMessage, actualMessage);
+		 logger.info(" TC_017 record level policy found in the table");
+			
 		 // agent  level -2
-		 test=rep.startTest("Agent Level Test");
-			test.log(LogStatus.INFO, "Starting the test case to check the basic flow of Agent level policy creation ");
+		
+		 logger.info(" TC_017 Agent level policy creation began ");
+			
 			AgentPolicyDetailPage agentPolicyDetailPage=new AgentPolicyDetailPage(driver);
 			AgentSelectPage agentSelectPage=new AgentSelectPage(driver);
 			clientPolicies.clickNewDirective();
@@ -85,7 +89,7 @@ public class eHO_TC_017 extends BaseTest{
 			agentSelectPage.setID("2.16.840.1.113883.3.239.18.14410003977");
 			agentSelectPage.clickReturnSelected();
 			agentPolicyDetailPage.clickSave();
-			
+			logger.info(" TC_017 agent level policy saved successfully ");
 			String expectedMessage1="Policy was saved successfully.";
 			String actualMessage1=driver.findElement(By.xpath("//*[@id='infoMessagesDialog']/table/tbody/tr/td")).getText();
 			softAssert.assertEquals(expectedMessage1, actualMessage1);
@@ -94,10 +98,13 @@ public class eHO_TC_017 extends BaseTest{
 			 expectedMessage="Agent Domain specified , operator Equals, Deny Policy";			
 			 softAssert.assertEquals(expectedMessage, actualMessage);
 				
-			 
+			 logger.info(" TC_017 agent level policy found in the policy table successfully ");
+				
 			 driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 				
 	//HIC Agent level 
+			 logger.info(" TC_017  HIC Agent level policy creation began ");
+				
 					HicAgentsPage hicAgentsPage= new HicAgentsPage(driver);			
 					clientPolicies.clickNewDirective();
 					clientPolicies.clickHICAgents();
@@ -111,7 +118,8 @@ public class eHO_TC_017 extends BaseTest{
 					hicAgentsPage.clickSelectedCity();
 					hicAgentsPage.clickReturnValue();
 			     	hicAgentsPage.clickSave();
-					//hicAgentsPage.clickForceSave();
+			    	logger.info(" TC_017 HIC Agent level policy saved successfully ");
+					
 					String expectedMessage2="Policy was saved successfully.";
 					String actualMessage2=driver.findElement(By.xpath(".//*[@id='infoMessagesDialog']/table/tbody/tr/td")).getText();				
 					softAssert.assertEquals(expectedMessage2, actualMessage2);
@@ -119,59 +127,56 @@ public class eHO_TC_017 extends BaseTest{
 					actualMessage= driver.findElement(By.xpath(".//*[@id='policiesResult:j_id_6j:2:j_id_6l']")).getText();
 					expectedMessage="HIC-Agent Domain specified, operator Not Equals, Deny Policy";			
 					softAssert.assertEquals(expectedMessage, actualMessage);
-		
+					 logger.info(" TC_017 HIC agent level policy found in the policy table successfully ");
+						
 					driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 					
 		
 	// hic records agent
+	logger.info( " TC_017 HIC record level policy creation began ");
+						
 	   HicRecordsPage hicRecordsPage=new HicRecordsPage(driver);
 		clientPolicies.clickNewDirective();
 		clientPolicies.clickHICRecords();
 		hicRecordsPage.selectDirectiveOutcome("Deny");
-		hicRecordsPage.setPolicyDescription("Record Domain specified , operator Not Equals, Deny Policy");
+		hicRecordsPage.setPolicyDescription("HIC Record Domain specified , operator Not Equals, Deny Policy");
 		hicRecordsPage.clickDomainAll();
-		hicRecordsPage.selectCustodiansExclude();
 		hicRecordsPage.selectCustodians("HIC Source 1");
 		hicRecordsPage.clickSave();
+		logger.info("TC_017 record level policy saved successfully ");
 		String expectedMessage4="Policy was saved successfully.";
 		String actualMessage4=driver.findElement(By.xpath("//*[@id='infoMessagesDialog']/table/tbody/tr/td")).getText();
 		softAssert.assertEquals(expectedMessage4, actualMessage4);
 		hicRecordsPage.clickBack();
 		actualMessage= driver.findElement(By.xpath(".//*[@id='policiesResult:j_id_6j:3:j_id_6l']")).getText();
-		 expectedMessage="Record Domain specified , operator Not Equals, Deny Policy";			
+		 expectedMessage="HIC Record Domain specified , operator Not Equals, Deny Policy";			
 		 softAssert.assertEquals(expectedMessage, actualMessage);
-
+			logger.info("TC_017 record level policy saved and is present in the table  ");
+			
 		 driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 			
 	// Global level 
-						
+		 logger.info("TC_017 Global level policy creation began ");
 		GlobalPage globalpage= new GlobalPage(driver);
-
 		clientPolicies.clickNewDirective();
 		clientPolicies.clickGlobal();
 		globalpage.selectDirectiveOutcome("Deny");
 		globalpage.setPolicyDescription("Global Domain specified,deny Policy");
 		globalpage.clickDomainAll();
 		globalpage.clickSave();
-	
+		logger.info("TC_017 Global level policy saved successfully ");
 		expectedMessage="Policy was saved successfully.";
 		actualMessage=driver.findElement(By.xpath("//*[@id='infoMessagesDialog']/table/tbody/tr/td")).getText();
 		softAssert.assertEquals(expectedMessage, actualMessage);
 		globalpage.clickBack();
-	
 		actualMessage= driver.findElement(By.xpath(".//*[@id='policiesResult:j_id_6j:4:j_id_6l']")).getText();
 		expectedMessage="Global Domain specified,deny Policy";			
 		softAssert.assertEquals(expectedMessage, actualMessage);
-		
-
-		//***********use array for storing values **** a[0][1]= 1 && a[0][1] = record level 	
-						
-		
-		
+		logger.info("TC_017 Global level policy saved successfully ");
 		//String order;
 		String expected_Text;
 		String actual_Text;
-		
+
 		expected_Text= "Record Level" ;
 		actual_Text=driver.findElement(By.xpath(".//*[@id='resultData']/tbody/tr[1]/td[3]")).getText();
 		System.out.println(expected_Text);
@@ -179,7 +184,7 @@ public class eHO_TC_017 extends BaseTest{
 		
 		softAssert.assertEquals(expected_Text, actual_Text);	
 		driver.findElement(By.xpath(".//*[@id='policiesResult:j_id_6j:0:j_id_6l']")).click();		
-			
+		logger.info("TC_017 record level policy  execution order is correct ");	
 		//revoking  first policy 
 				
 		recordLevelPolicyDetailPage.clickRevoke();
@@ -190,6 +195,7 @@ public class eHO_TC_017 extends BaseTest{
 		recordLevelPolicyDetailPage.clickCloseMessageBox();
 		System.out.println("record level revoked");	
 		recordLevelPolicyDetailPage.clickBack();
+		logger.info("TC_017 record level policy is revoked ");	
 		
 		// revoking second 
 		
@@ -201,6 +207,7 @@ public class eHO_TC_017 extends BaseTest{
 		System.out.println(actual_Text);
 		softAssert.assertEquals(expected_Text, actual_Text);
 		
+		logger.info("TC_017 Agent level policy  execution order is correct ");	
 		
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		
@@ -214,11 +221,13 @@ public class eHO_TC_017 extends BaseTest{
 		System.out.println("Agent level revoked");	
 		recordLevelPolicyDetailPage.clickBack();
 	
+		logger.info(" TC_017  Agent level revoked ");	
 		
 		// revoking third 
 		
 		
-expected_Text= "HIC-Agents" ;
+		expected_Text= "HIC-Agents" ;
+		logger.info(" TC_017 HIC Agent level is in correct execution order  ");	
 		
 		actual_Text=driver.findElement(By.xpath(".//*[@id='resultData']/tbody/tr[1]/td[3]")).getText();
 		System.out.println(expected_Text);
@@ -229,28 +238,29 @@ expected_Text= "HIC-Agents" ;
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 			
 		driver.findElement(By.xpath(".//*[@id='policiesResult:j_id_6j:0:j_id_6l']")).click();		
-				recordLevelPolicyDetailPage.clickRevoke();
-				recordLevelPolicyDetailPage.clickYesConfirmation();
-				expectedMessage="Policy was revoked successfully.";
-				actualMessage=driver.findElement(By.xpath(".//*[@id='infoMessagesDialog']/table/tbody/tr/td")).getText();		
-				softAssert.assertEquals(expectedMessage, actualMessage);
-				recordLevelPolicyDetailPage.clickCloseMessageBox();
-				System.out.println("HIC-Agents level revoked");	
-				recordLevelPolicyDetailPage.clickBack();
+		recordLevelPolicyDetailPage.clickRevoke();
+		recordLevelPolicyDetailPage.clickYesConfirmation();
+		expectedMessage="Policy was revoked successfully.";
+		actualMessage=driver.findElement(By.xpath(".//*[@id='infoMessagesDialog']/table/tbody/tr/td")).getText();		
+		softAssert.assertEquals(expectedMessage, actualMessage);
+		recordLevelPolicyDetailPage.clickCloseMessageBox();
+		logger.info(" TC_017 HIC Agent level is revoked   ");	
+		System.out.println(" TC_017 HIC-Agents level revoked");	
+		recordLevelPolicyDetailPage.clickBack();
+		// revoking fourth 
 				
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		logger.info(" TC_017 HIC-Records level is in correct execution order  ");	
+				
+		expected_Text= "HIC-Records";
+				
+		actual_Text=driver.findElement(By.xpath(".//*[@id='resultData']/tbody/tr[1]/td[3]")).getText();
+		System.out.println(expected_Text);
+		System.out.println(actual_Text);
+		softAssert.assertEquals(expected_Text, actual_Text);
+				
+		logger.info("TC_017 HIC-Records level is revoked  ");	
 		
-				// revoking fourth 
-				
-				driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-			
-				expected_Text= "HIC-Records";
-				
-				actual_Text=driver.findElement(By.xpath(".//*[@id='resultData']/tbody/tr[1]/td[3]")).getText();
-				System.out.println(expected_Text);
-				System.out.println(actual_Text);
-				softAssert.assertEquals(expected_Text, actual_Text);
-				
-				
 				driver.findElement(By.xpath(".//*[@id='policiesResult:j_id_6j:0:j_id_6l']")).click();		
 				recordLevelPolicyDetailPage.clickRevoke();
 				recordLevelPolicyDetailPage.clickYesConfirmation();
@@ -261,11 +271,15 @@ expected_Text= "HIC-Agents" ;
 				System.out.println("HIC-Records level revoked");	
 				recordLevelPolicyDetailPage.clickBack();
 				
-		
+				logger.info("TC_017 HIC-Records level is revoked  ");	
+				
 				// revoking fifth 
 				
 				driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-expected_Text= "Global";
+				logger.info("TC_017 Global  level is in correct order   ");	
+				
+				
+				expected_Text= "Global";
 				
 				actual_Text=driver.findElement(By.xpath(".//*[@id='resultData']/tbody/tr[1]/td[3]")).getText();
 				System.out.println(expected_Text);
@@ -284,6 +298,8 @@ expected_Text= "Global";
 				recordLevelPolicyDetailPage.clickBack();
 				
 		
+				logger.info("TC_017 Global level is revoked  ");	
+				
 				
 				
 	

@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-eHo_Version_5.5">
-                    <span>D:\HIPAAT\CMTA 1C\GUI Automation\Hipaat_eHo\src\test\resources\testng.xml</span>
+                    <span>C:\Users\Swathi\Desktop\PERSONAL\Hipaat_eHo\src\test\resources\testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">17 methods, 1 failed,   16 passed</span>
+                    <span class="method-stats">17 methods, 3 failed,   14 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -100,6 +100,16 @@
                       <a href="#" panel-name="suite-eHo_Version_5.5" class="show-methods failed suite-eHo_Version_5.5"> (show)</a> <!-- show-methods failed suite-eHo_Version_5.5 -->
                     </span>
                     <div class="method-list-content failed suite-eHo_Version_5.5">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-eHo_Version_5.5" title="com.eHo.testcases.eHO_TC_019" hash-for-method="TC_019Test">TC_019Test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-eHo_Version_5.5" title="com.eHo.testcases.eHO_TC_023" hash-for-method="TC_023Test">TC_023Test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                       <span>
                         <img width="3%" src="failed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-eHo_Version_5.5" title="com.eHo.testcases.eHO_TC_026" hash-for-method="TC_026Test">TC_026Test</a> <!-- method navigator-link -->
@@ -146,11 +156,6 @@
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-eHo_Version_5.5" title="com.eHo.testcases.eHO_TC_019" hash-for-method="TC_019Test">TC_019Test</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-eHo_Version_5.5" title="com.eHo.testcases.eHO_TC_020" hash-for-method="TC_020Test">TC_020Test</a> <!-- method navigator-link -->
                       </span>
                       <br/>
@@ -162,11 +167,6 @@
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-eHo_Version_5.5" title="com.eHo.testcases.eHO_TC_022" hash-for-method="TC_022Test">TC_022Test</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-eHo_Version_5.5" title="com.eHo.testcases.eHO_TC_023" hash-for-method="TC_023Test">TC_023Test</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -219,43 +219,53 @@
                   <span class="method-name">TC_026Test</span>
                   <div class="stack-trace">java.lang.AssertionError: The following asserts failed:
 	expected [false] but found [true]
-	at com.eHo.testcases.eHO_TC_026.TC_026Test(eHO_TC_026.java:110)
+	at com.eHo.testcases.eHO_TC_026.TC_026Test(eHO_TC_026.java:91)
 ... Removed 29 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-eHo_Version_5.5-class-failed -->
-          <div class="suite-eHo_Version_5.5-class-passed">
+          <div class="suite-eHo_Version_5.5-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.eHo.testcases.eHO_TC_025</span>
+              <img src="failed.png"/>
+              <span class="class-name">com.eHo.testcases.eHO_TC_019</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="TC_025Test">
-                  </a> <!-- TC_025Test -->
-                  <span class="method-name">TC_025Test</span>
+                  <a name="TC_019Test">
+                  </a> <!-- TC_019Test -->
+                  <span class="method-name">TC_019Test</span>
+                  <div class="stack-trace">java.lang.AssertionError: The following asserts failed:
+	expected [false] but found [true]
+	at com.eHo.testcases.eHO_TC_019.TC_019Test(eHO_TC_019.java:100)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-eHo_Version_5.5-class-passed -->
-          <div class="suite-eHo_Version_5.5-class-passed">
+          </div> <!-- suite-eHo_Version_5.5-class-failed -->
+          <div class="suite-eHo_Version_5.5-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.eHo.testcases.eHO_TC_028</span>
+              <img src="failed.png"/>
+              <span class="class-name">com.eHo.testcases.eHO_TC_023</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="TC_028Test">
-                  </a> <!-- TC_028Test -->
-                  <span class="method-name">TC_028Test</span>
+                  <a name="TC_023Test">
+                  </a> <!-- TC_023Test -->
+                  <span class="method-name">TC_023Test</span>
+                  <div class="stack-trace">java.lang.AssertionError: The following asserts failed:
+	expected [false] but found [true]
+	at com.eHo.testcases.eHO_TC_023.TC_023Test(eHO_TC_023.java:137)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-eHo_Version_5.5-class-passed -->
+          </div> <!-- suite-eHo_Version_5.5-class-failed -->
           <div class="suite-eHo_Version_5.5-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -267,111 +277,6 @@
                   <a name="TC_021Test">
                   </a> <!-- TC_021Test -->
                   <span class="method-name">TC_021Test</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-eHo_Version_5.5-class-passed -->
-          <div class="suite-eHo_Version_5.5-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.eHo.testcases.eHO_TC_020</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="TC_020Test">
-                  </a> <!-- TC_020Test -->
-                  <span class="method-name">TC_020Test</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-eHo_Version_5.5-class-passed -->
-          <div class="suite-eHo_Version_5.5-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.eHo.testcases.eHO_TC_027</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="TC_027Test">
-                  </a> <!-- TC_027Test -->
-                  <span class="method-name">TC_027Test</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-eHo_Version_5.5-class-passed -->
-          <div class="suite-eHo_Version_5.5-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.eHo.testcases.eHO_TC_016</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="TC_016Test">
-                  </a> <!-- TC_016Test -->
-                  <span class="method-name">TC_016Test</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-eHo_Version_5.5-class-passed -->
-          <div class="suite-eHo_Version_5.5-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.eHo.testcases.eHO_TC_002</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="TC_002Test">
-                  </a> <!-- TC_002Test -->
-                  <span class="method-name">TC_002Test</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-eHo_Version_5.5-class-passed -->
-          <div class="suite-eHo_Version_5.5-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.eHo.testcases.eHO_TC_023</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="TC_023Test">
-                  </a> <!-- TC_023Test -->
-                  <span class="method-name">TC_023Test</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-eHo_Version_5.5-class-passed -->
-          <div class="suite-eHo_Version_5.5-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.eHo.testcases.eHO_TC_029</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="TC_028Test">
-                  </a> <!-- TC_028Test -->
-                  <span class="method-name">TC_028Test</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-eHo_Version_5.5-class-passed -->
-          <div class="suite-eHo_Version_5.5-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.eHo.testcases.eHO_TC_013</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="TC_013Test">
-                  </a> <!-- TC_013Test -->
-                  <span class="method-name">TC_013Test</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -394,6 +299,21 @@
           <div class="suite-eHo_Version_5.5-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
+              <span class="class-name">com.eHo.testcases.eHO_TC_027</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_027Test">
+                  </a> <!-- TC_027Test -->
+                  <span class="method-name">TC_027Test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-eHo_Version_5.5-class-passed -->
+          <div class="suite-eHo_Version_5.5-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
               <span class="class-name">com.eHo.testcases.eHO_TC_015</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -409,14 +329,14 @@
           <div class="suite-eHo_Version_5.5-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.eHo.testcases.eHO_TC_005</span>
+              <span class="class-name">com.eHo.testcases.eHO_TC_013</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="TC_005Test">
-                  </a> <!-- TC_005Test -->
-                  <span class="method-name">TC_005Test</span>
+                  <a name="TC_013Test">
+                  </a> <!-- TC_013Test -->
+                  <span class="method-name">TC_013Test</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -439,14 +359,44 @@
           <div class="suite-eHo_Version_5.5-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.eHo.testcases.eHO_TC_019</span>
+              <span class="class-name">com.eHo.testcases.eHO_TC_028</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="TC_019Test">
-                  </a> <!-- TC_019Test -->
-                  <span class="method-name">TC_019Test</span>
+                  <a name="TC_028Test">
+                  </a> <!-- TC_028Test -->
+                  <span class="method-name">TC_028Test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-eHo_Version_5.5-class-passed -->
+          <div class="suite-eHo_Version_5.5-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.eHo.testcases.eHO_TC_002</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_002Test">
+                  </a> <!-- TC_002Test -->
+                  <span class="method-name">TC_002Test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-eHo_Version_5.5-class-passed -->
+          <div class="suite-eHo_Version_5.5-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.eHo.testcases.eHO_TC_025</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_025Test">
+                  </a> <!-- TC_025Test -->
+                  <span class="method-name">TC_025Test</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -466,10 +416,70 @@
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-eHo_Version_5.5-class-passed -->
+          <div class="suite-eHo_Version_5.5-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.eHo.testcases.eHO_TC_016</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_016Test">
+                  </a> <!-- TC_016Test -->
+                  <span class="method-name">TC_016Test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-eHo_Version_5.5-class-passed -->
+          <div class="suite-eHo_Version_5.5-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.eHo.testcases.eHO_TC_005</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_005Test">
+                  </a> <!-- TC_005Test -->
+                  <span class="method-name">TC_005Test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-eHo_Version_5.5-class-passed -->
+          <div class="suite-eHo_Version_5.5-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.eHo.testcases.eHO_TC_029</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_028Test">
+                  </a> <!-- TC_028Test -->
+                  <span class="method-name">TC_028Test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-eHo_Version_5.5-class-passed -->
+          <div class="suite-eHo_Version_5.5-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.eHo.testcases.eHO_TC_020</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_020Test">
+                  </a> <!-- TC_020Test -->
+                  <span class="method-name">TC_020Test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-eHo_Version_5.5-class-passed -->
         </div> <!-- panel eHo_Version_5.5 -->
         <div panel-name="test-xml-eHo_Version_5.5" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">D:\HIPAAT\CMTA 1C\GUI Automation\Hipaat_eHo\src\test\resources\testng.xml</span>
+            <span class="header-content">C:\Users\Swathi\Desktop\PERSONAL\Hipaat_eHo\src\test\resources\testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -648,78 +658,78 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(17);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'TC_002Test')
-data.setCell(0, 2, 'com.eHo.testcases.eHO_TC_002')
-data.setCell(0, 3, 40149);
+data.setCell(0, 1, 'TC_028Test')
+data.setCell(0, 2, 'com.eHo.testcases.eHO_TC_028')
+data.setCell(0, 3, 42091);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'TC_015Test')
 data.setCell(1, 2, 'com.eHo.testcases.eHO_TC_015')
-data.setCell(1, 3, 27613);
+data.setCell(1, 3, 40049);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'TC_023Test')
-data.setCell(2, 2, 'com.eHo.testcases.eHO_TC_023')
-data.setCell(2, 3, 27243);
+data.setCell(2, 1, 'TC_002Test')
+data.setCell(2, 2, 'com.eHo.testcases.eHO_TC_002')
+data.setCell(2, 3, 36274);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'TC_005Test')
-data.setCell(3, 2, 'com.eHo.testcases.eHO_TC_005')
-data.setCell(3, 3, 23771);
+data.setCell(3, 1, 'TC_013Test')
+data.setCell(3, 2, 'com.eHo.testcases.eHO_TC_013')
+data.setCell(3, 3, 35528);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'TC_028Test')
-data.setCell(4, 2, 'com.eHo.testcases.eHO_TC_028')
-data.setCell(4, 3, 23598);
+data.setCell(4, 1, 'TC_005Test')
+data.setCell(4, 2, 'com.eHo.testcases.eHO_TC_005')
+data.setCell(4, 3, 35474);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'TC_013Test')
-data.setCell(5, 2, 'com.eHo.testcases.eHO_TC_013')
-data.setCell(5, 3, 23543);
+data.setCell(5, 1, 'TC_026Test')
+data.setCell(5, 2, 'com.eHo.testcases.eHO_TC_026')
+data.setCell(5, 3, 33502);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'TC_026Test')
-data.setCell(6, 2, 'com.eHo.testcases.eHO_TC_026')
-data.setCell(6, 3, 23084);
+data.setCell(6, 1, 'TC_018Test')
+data.setCell(6, 2, 'com.eHo.testcases.eHO_TC_018')
+data.setCell(6, 3, 32168);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'TC_020Test')
-data.setCell(7, 2, 'com.eHo.testcases.eHO_TC_020')
-data.setCell(7, 3, 21977);
+data.setCell(7, 1, 'TC_016Test')
+data.setCell(7, 2, 'com.eHo.testcases.eHO_TC_016')
+data.setCell(7, 3, 30828);
 data.setCell(8, 0, 8)
 data.setCell(8, 1, 'TC_021Test')
 data.setCell(8, 2, 'com.eHo.testcases.eHO_TC_021')
-data.setCell(8, 3, 20667);
+data.setCell(8, 3, 29220);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'TC_024Test')
-data.setCell(9, 2, 'com.eHo.testcases.eHO_TC_024')
-data.setCell(9, 3, 20531);
+data.setCell(9, 1, 'TC_020Test')
+data.setCell(9, 2, 'com.eHo.testcases.eHO_TC_020')
+data.setCell(9, 3, 27721);
 data.setCell(10, 0, 10)
-data.setCell(10, 1, 'TC_022Test')
-data.setCell(10, 2, 'com.eHo.testcases.eHO_TC_022')
-data.setCell(10, 3, 20218);
+data.setCell(10, 1, 'TC_024Test')
+data.setCell(10, 2, 'com.eHo.testcases.eHO_TC_024')
+data.setCell(10, 3, 26316);
 data.setCell(11, 0, 11)
-data.setCell(11, 1, 'TC_019Test')
-data.setCell(11, 2, 'com.eHo.testcases.eHO_TC_019')
-data.setCell(11, 3, 17692);
+data.setCell(11, 1, 'TC_028Test')
+data.setCell(11, 2, 'com.eHo.testcases.eHO_TC_029')
+data.setCell(11, 3, 26256);
 data.setCell(12, 0, 12)
-data.setCell(12, 1, 'TC_028Test')
-data.setCell(12, 2, 'com.eHo.testcases.eHO_TC_029')
-data.setCell(12, 3, 17127);
+data.setCell(12, 1, 'TC_022Test')
+data.setCell(12, 2, 'com.eHo.testcases.eHO_TC_022')
+data.setCell(12, 3, 25794);
 data.setCell(13, 0, 13)
-data.setCell(13, 1, 'TC_016Test')
-data.setCell(13, 2, 'com.eHo.testcases.eHO_TC_016')
-data.setCell(13, 3, 16955);
+data.setCell(13, 1, 'TC_019Test')
+data.setCell(13, 2, 'com.eHo.testcases.eHO_TC_019')
+data.setCell(13, 3, 25464);
 data.setCell(14, 0, 14)
-data.setCell(14, 1, 'TC_018Test')
-data.setCell(14, 2, 'com.eHo.testcases.eHO_TC_018')
-data.setCell(14, 3, 16866);
+data.setCell(14, 1, 'TC_025Test')
+data.setCell(14, 2, 'com.eHo.testcases.eHO_TC_025')
+data.setCell(14, 3, 19335);
 data.setCell(15, 0, 15)
 data.setCell(15, 1, 'TC_027Test')
 data.setCell(15, 2, 'com.eHo.testcases.eHO_TC_027')
-data.setCell(15, 3, 12555);
+data.setCell(15, 3, 18983);
 data.setCell(16, 0, 16)
-data.setCell(16, 1, 'TC_025Test')
-data.setCell(16, 2, 'com.eHo.testcases.eHO_TC_025')
-data.setCell(16, 3, 10791);
+data.setCell(16, 1, 'TC_023Test')
+data.setCell(16, 2, 'com.eHo.testcases.eHO_TC_023')
+data.setCell(16, 3, 13389);
 window.suiteTableData['eHo_Version_5.5']= { tableData: data, tableDiv: 'times-div-eHo_Version_5.5'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 6 minutes</span>
+              <span class="suite-total-time">Total running time: 8 minutes</span>
               <div id="times-div-eHo_Version_5.5">
               </div> <!-- times-div-eHo_Version_5.5 -->
             </div> <!-- times-div -->
@@ -752,253 +762,257 @@ return data;
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">TC_002Test</span>
-                <span class="method-start">78 ms</span>
+                <span class="method-start">113 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=TC_002Test status=SUCCESS method=eHO_TC_002.TC_002Test()[pri:0, instance:com.eHo.te...)</span>
-                <span class="method-start">40228 ms</span>
+                <span class="method-start">36387 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.eHo.testcases.eHO_TC_005</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">41118 ms</span>
+                <span class="method-start">37984 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">TC_005Test</span>
-                <span class="method-start">41134 ms</span>
+                <span class="method-start">38037 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=TC_005Test status=SUCCESS method=eHO_TC_005.TC_005Test()[pri:0, instance:com.eHo.te...)</span>
-                <span class="method-start">64905 ms</span>
+                <span class="method-start">73512 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.eHo.testcases.eHO_TC_013</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">65465 ms</span>
+                <span class="method-start">74413 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">TC_013Test</span>
-                <span class="method-start">65480 ms</span>
+                <span class="method-start">74464 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=TC_013Test status=SUCCESS method=eHO_TC_013.TC_013Test()[pri:0, instance:com.eHo.te...)</span>
-                <span class="method-start">89024 ms</span>
+                <span class="method-start">109992 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.eHo.testcases.eHO_TC_015</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">89472 ms</span>
+                <span class="method-start">110778 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">TC_015Test</span>
-                <span class="method-start">89490 ms</span>
+                <span class="method-start">110831 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=TC_015Test status=SUCCESS method=eHO_TC_015.TC_015Test()[pri:0, instance:com.eHo.te...)</span>
-                <span class="method-start">117104 ms</span>
+                <span class="method-start">150880 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.eHo.testcases.eHO_TC_016</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">117564 ms</span>
+                <span class="method-start">151612 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">TC_016Test</span>
-                <span class="method-start">117601 ms</span>
+                <span class="method-start">151669 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=TC_016Test status=SUCCESS method=eHO_TC_016.TC_016Test()[pri:0, instance:com.eHo.te...)</span>
-                <span class="method-start">134556 ms</span>
+                <span class="method-start">182498 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.eHo.testcases.eHO_TC_018</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">134954 ms</span>
+                <span class="method-start">183386 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">TC_018Test</span>
-                <span class="method-start">134969 ms</span>
+                <span class="method-start">183440 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=TC_018Test status=SUCCESS method=eHO_TC_018.TC_018Test()[pri:0, instance:com.eHo.te...)</span>
-                <span class="method-start">151836 ms</span>
+                <span class="method-start">215609 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.eHo.testcases.eHO_TC_019</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">152307 ms</span>
+                <span class="method-start">216542 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">TC_019Test</span>
-                <span class="method-start">152349 ms</span>
+                <span class="method-start">216597 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">tearDown([TestResult name=TC_019Test status=SUCCESS method=eHO_TC_019.TC_019Test()[pri:0, instance:com.eHo.te...)</span>
-                <span class="method-start">170041 ms</span>
+                <span class="method-name">tearDown([TestResult name=TC_019Test status=FAILURE method=eHO_TC_019.TC_019Test()[pri:0, instance:com.eHo.te...)</span>
+                <span class="method-start">242078 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.eHo.testcases.eHO_TC_020</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">170420 ms</span>
+                <span class="method-start">243417 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">TC_020Test</span>
-                <span class="method-start">170437 ms</span>
+                <span class="method-start">243471 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=TC_020Test status=SUCCESS method=eHO_TC_020.TC_020Test()[pri:0, instance:com.eHo.te...)</span>
-                <span class="method-start">192415 ms</span>
+                <span class="method-start">271192 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.eHo.testcases.eHO_TC_021</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">192843 ms</span>
+                <span class="method-start">272131 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">TC_021Test</span>
-                <span class="method-start">192858 ms</span>
+                <span class="method-start">272183 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=TC_021Test status=SUCCESS method=eHO_TC_021.TC_021Test()[pri:0, instance:com.eHo.te...)</span>
-                <span class="method-start">213525 ms</span>
+                <span class="method-start">301403 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.eHo.testcases.eHO_TC_022</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">213914 ms</span>
+                <span class="method-start">302310 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">TC_022Test</span>
-                <span class="method-start">213945 ms</span>
+                <span class="method-start">302363 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=TC_022Test status=SUCCESS method=eHO_TC_022.TC_022Test()[pri:0, instance:com.eHo.te...)</span>
-                <span class="method-start">234164 ms</span>
+                <span class="method-start">328158 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.eHo.testcases.eHO_TC_023</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">234866 ms</span>
+                <span class="method-start">329061 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">TC_023Test</span>
-                <span class="method-start">234890 ms</span>
+                <span class="method-start">329110 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">tearDown([TestResult name=TC_023Test status=SUCCESS method=eHO_TC_023.TC_023Test()[pri:0, instance:com.eHo.te...)</span>
-                <span class="method-start">262133 ms</span>
+                <span class="method-name">tearDown([TestResult name=TC_023Test status=FAILURE method=eHO_TC_023.TC_023Test()[pri:0, instance:com.eHo.te...)</span>
+                <span class="method-start">342500 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.eHo.testcases.eHO_TC_024</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">262557 ms</span>
+                <span class="method-start">343569 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">TC_024Test</span>
-                <span class="method-start">262574 ms</span>
+                <span class="method-start">343626 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=TC_024Test status=SUCCESS method=eHO_TC_024.TC_024Test()[pri:0, instance:com.eHo.te...)</span>
-                <span class="method-start">283105 ms</span>
+                <span class="method-start">369942 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.eHo.testcases.eHO_TC_025</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">283494 ms</span>
+                <span class="method-start">370881 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">TC_025Test</span>
-                <span class="method-start">283529 ms</span>
+                <span class="method-start">370930 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=TC_025Test status=SUCCESS method=eHO_TC_025.TC_025Test()[pri:0, instance:com.eHo.te...)</span>
-                <span class="method-start">294320 ms</span>
+                <span class="method-start">390266 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.eHo.testcases.eHO_TC_026</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">294716 ms</span>
+                <span class="method-start">391097 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">TC_026Test</span>
-                <span class="method-start">294734 ms</span>
+                <span class="method-start">391147 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=TC_026Test status=FAILURE method=eHO_TC_026.TC_026Test()[pri:0, instance:com.eHo.te...)</span>
-                <span class="method-start">317837 ms</span>
+                <span class="method-start">424650 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.eHo.testcases.eHO_TC_027</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">318424 ms</span>
+                <span class="method-start">426008 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">TC_027Test</span>
-                <span class="method-start">318447 ms</span>
+                <span class="method-start">426057 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=TC_027Test status=SUCCESS method=eHO_TC_027.TC_027Test()[pri:0, instance:com.eHo.te...)</span>
-                <span class="method-start">331002 ms</span>
+                <span class="method-start">445040 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.eHo.testcases.eHO_TC_028</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">331704 ms</span>
+                <span class="method-start">445836 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">TC_028Test</span>
-                <span class="method-start">331740 ms</span>
+                <span class="method-start">445892 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=TC_028Test status=SUCCESS method=eHO_TC_028.TC_028Test()[pri:0, instance:com.eHo.te...)</span>
-                <span class="method-start">355338 ms</span>
+                <span class="method-start">487983 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.eHo.testcases.eHO_TC_029</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">355868 ms</span>
+                <span class="method-start">488803 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">TC_028Test</span>
-                <span class="method-start">355889 ms</span>
+                <span class="method-start">488853 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=TC_028Test status=SUCCESS method=eHO_TC_029.TC_028Test()[pri:0, instance:com.eHo.te...)</span>
-                <span class="method-start">373016 ms</span>
+                <span class="method-start">515110 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

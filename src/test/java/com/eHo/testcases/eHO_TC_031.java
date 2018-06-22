@@ -1,7 +1,5 @@
 package com.eHo.testcases;
 
-import java.text.SimpleDateFormat;
-import java.util.Date;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
@@ -64,14 +62,14 @@ public class eHO_TC_031 extends BaseTest
 
 	softAssert.assertEquals(expectedMessage, actualMessage);
 	systemdirectivepage.clickBtnBack();
-	SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd");   
+	/* SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd");   
 	Date date = new Date();   
 	String currentDate= formatter.format(date);
 	System.out.println(currentDate);
 	String actualDate=driver.findElement(By.xpath(".//*[@id='0']/td[3]")).getText();	
 	System.out.println(actualDate); 
 	softAssert.assertEquals(currentDate, actualDate);	
-		
+		*/
 
 	String actualSource=driver.getPageSource();
 	boolean a= actualSource.contains("Default2");

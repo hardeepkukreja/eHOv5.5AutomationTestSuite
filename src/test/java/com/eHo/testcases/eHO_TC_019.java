@@ -11,10 +11,8 @@ import org.testng.annotations.Test;
 
 import com.eHo.basetest.BaseTest;
 import com.eHo.pageobjects.ActivePolicyReportPage;
-
 import com.eHo.pageobjects.ClientSearchPage;
 import com.eHo.pageobjects.NavigationPage;
-
 import com.relevantcodes.extentreports.LogStatus;
 
 public class eHO_TC_019 extends BaseTest{
@@ -51,6 +49,8 @@ public class eHO_TC_019 extends BaseTest{
 				
 				clientSearch.setID(prop.getProperty("id"));
 				test.log(LogStatus.INFO, "Searching Id");
+				logger.info("TC_019 ID is searched ");	
+				
 				clientSearch.clickSearch();
 				activepolicyreportpage.clickSelectName();
 				activepolicyreportpage.clickReturnName();
@@ -60,33 +60,30 @@ public class eHO_TC_019 extends BaseTest{
 				activepolicyreportpage.clickbtnPdfSchedule();
 				String expectedMessage1="Your report has been scheduled. You will be notified when it is completed.";
 				String	actualMessage1=driver.findElement(By.xpath(".//*[@id='infoMessagesDialog']/table/tbody/tr/td")).getText();		
-				
 				softAssert.assertEquals(expectedMessage1, actualMessage1);
-				
-
-				driver.manage().timeouts().implicitlyWait(100, TimeUnit.SECONDS);
+				logger.info("TC_019 report is scheduled ");	
+				driver.manage().timeouts().implicitlyWait(50, TimeUnit.SECONDS);
 				
 				navigationPage.clickReport();
 				navigationPage.clickScheduledReports();
 				
-				driver.manage().timeouts().implicitlyWait(100, TimeUnit.SECONDS);
-				
-				
+					
 			String actualSource=driver.getPageSource();
-				boolean a= actualSource.contains("Automation123");
+				boolean a= actualSource.contains("Automation_Test01");
 				if(a==true)
 				{	
 					System.out.println("Passed");
 					softAssert.assertFalse(false);
 				}	
 				
-				expectedMessage1="Automation123";
+				expectedMessage1="Automation_Test01";
 				actualMessage1=driver.findElement(By.xpath(".//*[@id='resultData']/tbody/tr[1]/td[3]/div")).getText();		
 				System.out.println(actualMessage1);
 				
 				String statusActual =driver.findElement(By.xpath(".//*[@id='resultData']/tbody/tr[1]/td[4]/div")).getText();
 				String statusExpected= "Scheduled";
 				softAssert.assertEquals(statusActual, statusExpected);
+				logger.info("TC_019  passed for report generation  report generation  ");	
 				
 				
 			}

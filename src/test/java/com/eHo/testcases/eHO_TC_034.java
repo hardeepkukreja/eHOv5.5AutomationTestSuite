@@ -32,8 +32,8 @@ public class eHO_TC_034 extends BaseTest  {
 		
 	try
 	{
-	test=rep.startTest("TC_033 Test");
-	test.log(LogStatus.INFO, "Starting the test case to check the basic flow of record level policy creation ");
+	test=rep.startTest("TC_034 Test");
+	test.log(LogStatus.INFO, "Starting the test case ");
 	openBrowser(prop.getProperty("browser"));//this is the method from BaseTest class that opens up the browser based upon the parameter
 	navigate("appURL");//to navigate to the application
 	driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);

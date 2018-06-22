@@ -23,6 +23,9 @@ public static WebDriver driver;
 	@FindBy(xpath=".//*[@id='test:appliesTo']/input")
 	WebElement btnAdd;
 	
+	@FindBy(xpath="//input[@value='Add...']")
+	WebElement btnAdd1;
+	
 	
 	@FindBy(id="test:j_id_ao:0:j_id_aq")
 	WebElement btnAgent;
@@ -80,6 +83,8 @@ public static WebDriver driver;
 	@FindBy(id="ui-id-1")
 	WebElement specifyPHI;
 	
+	@FindBy(xpath=".//*[@id='test:j_id_b6']")
+	WebElement specifyPHI2;
 	
 	
 	@FindBy(id="test:j_id_b6")
@@ -97,8 +102,10 @@ public static WebDriver driver;
 	
 	@FindBy(id="result:doneBtn")
 	WebElement btnDonePHI; //done button in PHI 
-				
-			
+	
+	@FindBy(id="result:j_id_4p:0:inputList")
+	WebElement hicSource; //hic source ID 
+	
 		
 // over ride 
 	@FindBy(id="ui-id-3")
@@ -136,6 +143,12 @@ public static WebDriver driver;
 	{
 		btnAdd.click();
 	}
+	
+	public void clickBtnAdd1()
+	{
+		btnAdd1.click();
+	}
+	
 	
 	public void clickBtnAgent()
 	{
@@ -203,6 +216,12 @@ public static WebDriver driver;
 		specifyPHI.click();
 	}
 	
+	public void clickSpecifyPHI2()
+	{
+		specifyPHI2.click();
+	}
+	
+	
 	
 	public void clickBtnAddPHI()
 	{
@@ -223,8 +242,24 @@ public static WebDriver driver;
 	public void setdomainID(String value)
 	{
 		Select id= new Select(domainID);
-		id.selectByValue(value);
+		try { id.selectByValue(value); }
+		catch(Exception e) {
+			id.selectByVisibleText(value);
+		}
 	}
+	
+	
+	public void setHicSource(String value)
+	{
+		Select id= new Select(hicSource);
+		try { id.selectByVisibleText(value);  }
+		catch(Exception e) {
+			id.selectByValue(value);
+			
+		}
+	}
+	
+	
 	
 	
 	public void clickDonePHI()

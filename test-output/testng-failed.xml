@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.eHo.testcases.eHO_TC_032">
+      <class name="com.eHo.testcases.eH0_TC_000">
         <methods>
-          <include name="TC_032Test01"/>
-          <include name="tearDown"/>
           <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="TC_000Test"/>
         </methods>
-      </class> <!-- com.eHo.testcases.eHO_TC_032 -->
+      </class> <!-- com.eHo.testcases.eH0_TC_000 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

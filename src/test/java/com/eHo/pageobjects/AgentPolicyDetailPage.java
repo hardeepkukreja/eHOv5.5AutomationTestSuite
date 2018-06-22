@@ -76,7 +76,18 @@ public class AgentPolicyDetailPage {
 	
 					
 	@FindBy(xpath="html/body/div[6]/div[2]/div/div/div/div/div[4]/button[1]")
+	
 	WebElement btnYesConfirmation;
+	@FindBy(xpath="html/body/div[6]/div[2]/div/div/div/div")
+	WebElement windowConfirmation;
+	
+	
+	@FindBy(xpath="//button[contains(.,'Yes')]")
+	WebElement btnYesConfirmation2;
+	
+	
+	
+	//driver.findElement(By.xpath("//button[contains(.,'Yes')]"));
 	
 	@FindBy(xpath="html/body/div[6]/div[1]/button")
 	WebElement btnCloseMessage;
@@ -217,11 +228,18 @@ public class AgentPolicyDetailPage {
 	}
 	public void clickYesConfirmation()
 	{
-		//btnYesConfirmation.click();
+	//	btnYesConfirmation.click();
 		driver.findElement(By.xpath("html/body/div[6]/div[2]/div/div/div/div/div[4]/button[1]")).click();
 		
 	}
 	
+	public void btnYesConfirmation2()
+	{
+		btnYesConfirmation2.click();
+		
+	}
+	
+
 	public void clickCloseMessageBox()
 	{
 		btnCloseMessage.click();
@@ -240,5 +258,10 @@ public class AgentPolicyDetailPage {
 	drop.selectByIndex(1);
 	}
 	
+	public void clickYesConfirmation11()
+	{
+		windowConfirmation.click();
+		btnYesConfirmation.click();
+	}
 	
 }

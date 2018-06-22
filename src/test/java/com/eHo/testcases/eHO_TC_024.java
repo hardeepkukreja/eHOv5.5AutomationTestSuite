@@ -52,7 +52,7 @@ public class eHO_TC_024 extends BaseTest{
 		System.out.println(actualMessage);
 		String expectedMessage= "HIPAAT eSuite Admin";
 		softAssert.assertEquals(expectedMessage, actualMessage);
-		
+		logger.info("TC_024 TestCase checked for admin title  ");	
 		
 		int rows=driver.findElements(By.xpath(".//*[@id='resultData']/tbody/tr")).size(); // in the table body , each row is being counted and saved into integer 
 		System.out.println("Security alert messages  have : "+rows+ "  rows ");
@@ -63,11 +63,14 @@ public class eHO_TC_024 extends BaseTest{
 			driver.findElement(By.xpath(".//*[@id='attnMessagesDialog']/table/tbody/tr/td")).isDisplayed();
 			fail("Element should not have been displayed ");	
 			}
-		catch (NoSuchElementException e) {}
+		catch (NoSuchElementException e) 
 			{
 			System.out.println("Passed");	
 			softAssert.assertFalse(false);
-			}
+			logger.info("TC_024 TestCase passed  ");	
+			
+				}
+		logger.info("TC_024 TestCase reached end of execution ");		
 		}
 		catch(Exception ex)
 			{

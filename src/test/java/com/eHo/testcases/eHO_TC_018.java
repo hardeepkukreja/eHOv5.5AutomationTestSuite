@@ -1,5 +1,5 @@
 package com.eHo.testcases;
-
+//Thsi testcase tests if the reports can be scheduled 
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
@@ -28,7 +28,7 @@ public class eHO_TC_018 extends BaseTest{
 		try
 		{
 			test=rep.startTest("TC_0018Test");
-			test.log(LogStatus.INFO, "Starting the test case to check the basic flow reports creation ");
+			test.log(LogStatus.INFO, "Starting the test case to check the basic flow reports creation and scheduling  ");
 			openBrowser(prop.getProperty("browser"));//this is the method from BaseTest class that opens up the browser based upon the parameter
 			navigate("appURL");//to navigate to the application
 			driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
@@ -41,6 +41,8 @@ public class eHO_TC_018 extends BaseTest{
 			ActivePolicyReportPage activepolicyreportpage= new ActivePolicyReportPage(driver);
 			activepolicyreportpage.clickActivePolicyReportTab();
 			activepolicyreportpage.clickBtnSelectName();
+			logger.info("TC_018 name is selected for report generation  ");	
+			
 			
 			//
 			
@@ -48,6 +50,7 @@ public class eHO_TC_018 extends BaseTest{
 			clientSearch.setID(prop.getProperty("id"));
 			test.log(LogStatus.INFO, "Searching Id");
 			clientSearch.clickSearch();
+			logger.info("TC_018 id is searched for client   ");	
 			
 			
 			
@@ -63,6 +66,8 @@ public class eHO_TC_018 extends BaseTest{
 			String	actualMessage1=driver.findElement(By.xpath(".//*[@id='infoMessagesDialog']/table/tbody/tr/td")).getText();		
 			
 			softAssert.assertEquals(expectedMessage1, actualMessage1);
+			logger.info("TC_018 report is scheduled  ");	
+			
 			
 
 			driver.manage().timeouts().implicitlyWait(100, TimeUnit.SECONDS);
@@ -89,7 +94,10 @@ public class eHO_TC_018 extends BaseTest{
 			String statusExpected= "Scheduled";
 			softAssert.assertEquals(statusActual, statusExpected);
 			
+			logger.info("TC_018 report is scheduled and tescase Passed  ");	
 			
+			
+
 			
 			
 			

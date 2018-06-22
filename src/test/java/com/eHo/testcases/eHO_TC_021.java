@@ -12,7 +12,6 @@ import org.testng.annotations.Test;
 
 import com.eHo.basetest.BaseTest;
 import com.eHo.pageobjects.ActivePolicyReportPage;
-
 import com.eHo.pageobjects.NavigationPage;
 import com.relevantcodes.extentreports.LogStatus;
 
@@ -30,7 +29,7 @@ public class eHO_TC_021 extends BaseTest{
 		try
 		{
 			test=rep.startTest("TC_0021Test");
-			test.log(LogStatus.INFO, "Starting the test case to check the basic flow reports scheduling creation ");
+			test.log(LogStatus.INFO, "Starting the test case to check the basic flow help page");
 			openBrowser(prop.getProperty("browser"));//this is the method from BaseTest class that opens up the browser based upon the parameter
 			navigate("appURL");//to navigate to the application
 			driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
@@ -38,6 +37,7 @@ public class eHO_TC_021 extends BaseTest{
 			test.log(LogStatus.INFO, "Clicked submit button");
 			NavigationPage navigationPage=new NavigationPage(driver);
 			
+			logger.info("TC_021 report generation help  ");	
 			
 			//report page 
 			navigationPage.clickReport();
@@ -60,7 +60,9 @@ public class eHO_TC_021 extends BaseTest{
 				driver.close();
 			}
 			
-	
+			logger.info("TC_021 is passed for help in report generation  ");	
+			
+			
 
 }
 		catch(Exception ex)

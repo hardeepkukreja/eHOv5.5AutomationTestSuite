@@ -56,6 +56,8 @@ public class eHO_TC_028 extends BaseTest {
 		clientSearch.clickSearch();
 		clientSearch.clickClientName();
 		clientPolicies.clickNewDirective();
+		logger.info("TC_028 record level policy creation began  ");
+		
 		clientPolicies.clickRecordLevel();
 		recordLevelPolicyDetailPage.selectDirectiveOutcome("Deny"); 
 		recordLevelPolicyDetailPage.setPolicyDescription("Record Level, domain specific, operator equals Policy");
@@ -70,6 +72,8 @@ public class eHO_TC_028 extends BaseTest {
 		String actualMessage=driver.findElement(By.xpath("//*[@id='infoMessagesDialog']/table/tbody/tr/td")).getText();
 		softAssert.assertEquals(expectedMessage, actualMessage);
 		recordLevelPolicyDetailPage.clickBack();
+		logger.info("TC_028 record level policy is created  ");
+		
 		//checking if the policy is created 
 
 		 actualMessage= driver.findElement(By.xpath(".//*[@id='policiesResult:j_id_6j:0:j_id_6l']")).getText();
@@ -77,7 +81,8 @@ public class eHO_TC_028 extends BaseTest {
 		
 		 softAssert.assertEquals(expectedMessage, actualMessage);
 		
-		
+		 logger.info("TC_028 record level policy is created  in the policy table ");
+			
 		Thread.sleep(1000);
 		 
 		navigationPage.clickConsent();
@@ -86,7 +91,8 @@ public class eHO_TC_028 extends BaseTest {
 		InternalClientSearch internalclientsearch= new InternalClientSearch(driver);
 		internalclientsearch.clickinternalID();
 		internalclientsearch.setTxtEcid("AUTO99");
-		
+		 logger.info("TC_028 search by ecid value ");
+			
 		internalclientsearch.clickbtnSearch();
 		String nameProp= prop.getProperty("name");
 		System.out.println(nameProp);
@@ -118,8 +124,9 @@ public class eHO_TC_028 extends BaseTest {
 		
 		clientSearch.clickByPCR_idtab();
 		clientSearch.setPCR_ID("AUTO99");
+		logger.info("TC_028 seaching by PCR  id ");
 		
-	//	clientSearch.setID(prop.getProperty("id"));
+		
 		test.log(LogStatus.INFO, "Searching Id");
 		clientSearch.clickSearch();
 		clientSearch.clickClientName();
@@ -128,13 +135,16 @@ public class eHO_TC_028 extends BaseTest {
 		recordLevelPolicyDetailPage.clickRevoke();
 		recordLevelPolicyDetailPage.clickYesConfirmation();
 		
-
+		 logger.info("TC_028 policy is revoked  ");
+			
 		  expectedMessage="Policy was revoked successfully.";
 		 	actualMessage=driver.findElement(By.xpath(".//*[@id='infoMessagesDialog']/table/tbody/tr/td")).getText();		
 		
 		softAssert.assertEquals(expectedMessage, actualMessage);
 		recordLevelPolicyDetailPage.clickCloseMessageBox();
 	
+		logger.info("TC_028 policy execution reached end of execution  ");
+		
 		}
 		catch(Exception ex)
 		{
